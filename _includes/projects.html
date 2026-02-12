@@ -13,12 +13,12 @@
           alt="project thumbnail" -%}
         {%- endif %}
         <div class="card-body">
-          <h2
+          <h3
             class="card-title"
             data-i18n-title="true"
             data-i18n-en="{{ project.title | escape }}"
             data-i18n-zh="{{ project.title_zh | default: project.title | escape }}"
-          >{{ project.title }}</h2>
+          >{{ project.title }}</h3>
           <p
             class="card-text"
             data-i18n-description="true"

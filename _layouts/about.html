@@ -58,10 +58,10 @@ layout: default
             {%- include latest_posts.html %}
           {%- endif %}
 
-          <!-- Selected papers -->
+          <!-- Shipped UX -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;" data-i18n-key="section.selected_publications">Selected publications</a></h2>
-            {%- include selected_papers.html %}
+            <h2><a href="{{ '/projects/' | relative_url }}" style="color: inherit;" data-i18n-key="section.selected_publications">Shipped New User Experiences</a></h2>
+            {%- include shipped_ux.html %}
           {%- endif %}
 
           <!-- Social -->

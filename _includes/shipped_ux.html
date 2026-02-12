@@ -1,0 +1,9 @@
+<!-- _includes/shipped_ux.html -->
+<div class="projects">
+  {%- assign shipped = site.projects | sort: "release_year" | reverse -%}
+  <div class="grid">
+    {%- for project in shipped limit: 6 -%}
+      {% include projects.html %}
+    {%- endfor -%}
+  </div>
+</div>

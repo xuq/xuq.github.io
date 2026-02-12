@@ -526,6 +526,12 @@ footer.sticky-bottom {
 // Projects
 
 .projects {
+  .card-title {
+    font-size: 1.05rem;
+    line-height: 1.25;
+    margin-bottom: 0.35rem;
+  }
+
   a {
     text-decoration: none;
 
