@@ -1,0 +1,51 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Qiang Xu
+    - name: Location
+      value: Markham, Ontario, Canada
+    - name: Languages
+      value: English, Chinese
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D.
+      institution: McMaster University, Hamilton, ON, Canada
+      year: 2013 - 2018
+      description:
+        - Fingerprints for Indoor Localization
+    - title: M.Sc.
+      institution: Chinese Academy of Sciences, Beijing, China
+      year: 2010 - 2013
+    - title: B.Sc.
+      institution: Nanjing University of Aeronautics and Astronautics, Nanjing, China
+      year: 2006 - 2010
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Senior Principal Engineer & Research Lead
+      institution: Huawei Technologies Canada Co., Ltd., Markham, ON, Canada
+      year: 2018 - Present
+      description:
+        - Human-Machine Interaction Lab
+        - Leading research in HCI, Sensing & Interaction, On-Body Sensing, Wearable Computing, and Cross-Device Interaction
+
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Human-Computer Interaction
+      items:
+        - Stylus and touch interaction
+        - Cross-device interaction
+        - Wearable and earable interaction
+        - Smart watch GUI and input
+        - Speech interaction (Voice UI)
+    - title: Sensing & Systems
+      items:
+        - Indoor localization
+        - On-body microphone sensing
+        - Wireless sensing (mmWave, acoustic)
+        - Spatial perception and device collaboration
