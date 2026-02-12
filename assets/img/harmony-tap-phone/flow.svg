@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#1f2a44"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .t{font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; fill:#e2e8f0}
+      .h{font-weight:700; fill:#fff}
+      .m{font-size:22px}
+      .s{font-size:18px; opacity:.9}
+      .box{fill:#0f172a; stroke:#334155; stroke-width:3}
+      .step{fill:#0b1020; stroke:#1f2a44; stroke-width:2}
+      .chip{fill:#111827; stroke:#334155; stroke-width:2; rx:18; ry:18}
+      .num{fill:#0b1220; font-weight:800}
+    </style>
+  </defs>
+
+  <rect width="1200" height="720" fill="url(#bg)"/>
+
+  <text x="70" y="80" class="t h" font-size="40">HarmonyOS · Phone ↔ Phone “碰一碰”</text>
+  <text x="70" y="120" class="t m" opacity="0.9">Reference interaction flow (experience-level)</text>
+
+  <!-- phones -->
+  <g transform="translate(130,190)" filter="url(#soft)">
+    <rect class="box" x="0" y="0" rx="28" ry="28" width="230" height="360"/>
+    <rect class="step" x="22" y="48" rx="18" ry="18" width="186" height="260"/>
+    <circle cx="115" cy="26" r="6" fill="#94a3b8"/>
+  </g>
+  <g transform="translate(840,190)" filter="url(#soft)">
+    <rect class="box" x="0" y="0" rx="28" ry="28" width="230" height="360"/>
+    <rect class="step" x="22" y="48" rx="18" ry="18" width="186" height="260"/>
+    <circle cx="115" cy="26" r="6" fill="#94a3b8"/>
+  </g>
+
+  <!-- center steps -->
+  <g transform="translate(405,210)">
+    <rect class="chip" x="0" y="0" width="390" height="70"/>
+    <circle cx="40" cy="35" r="18" fill="url(#accent)"/>
+    <text x="40" y="41" text-anchor="middle" class="t num" font-size="18">1</text>
+    <text x="72" y="43" class="t m">Unlock & enable Huawei Share</text>
+
+    <rect class="chip" x="0" y="95" width="390" height="70"/>
+    <circle cx="40" cy="130" r="18" fill="url(#accent)"/>
+    <text x="40" y="136" text-anchor="middle" class="t num" font-size="18">2</text>
+    <text x="72" y="138" class="t m">Open a shareable item (photo / Wi‑Fi)</text>
+
+    <rect class="chip" x="0" y="190" width="390" height="70"/>
+    <circle cx="40" cy="225" r="18" fill="url(#accent)"/>
+    <text x="40" y="231" text-anchor="middle" class="t num" font-size="18">3</text>
+    <text x="72" y="233" class="t m">Tap top edges → animation appears</text>
+
+    <rect class="chip" x="0" y="285" width="390" height="70"/>
+    <circle cx="40" cy="320" r="18" fill="url(#accent)"/>
+    <text x="40" y="326" text-anchor="middle" class="t num" font-size="18">4</text>
+    <text x="72" y="328" class="t m">Swipe up to send → receiver taps accept</text>
+  </g>
+
+  <!-- glow between phones -->
+  <g opacity="0.9">
+    <path d="M370 365 C 430 365, 430 365, 480 365" stroke="url(#accent)" stroke-width="6" fill="none"/>
+    <path d="M720 365 C 770 365, 770 365, 840 365" stroke="url(#accent)" stroke-width="6" fill="none"/>
+    <circle cx="600" cy="365" r="46" fill="url(#accent)" opacity="0.22"/>
+    <circle cx="600" cy="365" r="18" fill="url(#accent)" opacity="0.95"/>
+  </g>
+
+  <text x="70" y="660" class="t s">Tip: This illustration is custom-made for the project page (not an official UI screenshot).</text>
+</svg>

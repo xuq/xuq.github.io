@@ -22,6 +22,8 @@ This page summarizes the HarmonyOS “Tap-to-Share / 碰一碰” experience for
   <li data-i18n-content-key="p8.what.w3">After the tap animation appears, the sender performs an “up-swipe” action to send, and the receiver taps to accept (as described in reports).</li>
 </ul>
 
+<img src="/assets/img/harmony-tap-phone/items.svg" alt="Typical shareable items" style="display:block; width:min(100%, 860px); height:auto; margin:0 auto 1rem; border-radius:12px;">
+
 <h3 data-i18n-content-key="p8.how.heading">Basic flow (reference)</h3>
 <ol>
   <li data-i18n-content-key="p8.how.s1">Both phones are on, unlocked, with Huawei Share enabled.</li>
@@ -29,6 +31,8 @@ This page summarizes the HarmonyOS “Tap-to-Share / 碰一碰” experience for
   <li data-i18n-content-key="p8.how.s3">Touch the top edges of the two phones to trigger the “Tap-to-Share” animation.</li>
   <li data-i18n-content-key="p8.how.s4">Follow on-screen prompts: sender swipes up to send; receiver taps to accept.</li>
 </ol>
+
+<img src="/assets/img/harmony-tap-phone/flow.svg" alt="Tap-to-Share phone-to-phone flow" style="display:block; width:min(100%, 860px); height:auto; margin:0 auto 1rem; border-radius:12px;">
 
 <h3 data-i18n-content-key="p8.notes.heading">Notes / constraints</h3>
 <ul>
