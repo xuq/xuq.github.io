@@ -4,7 +4,7 @@ title: HarmonyOS Tap-to-Share (Phone to Phone)
 title_zh: 鸿蒙碰一碰（手机碰手机）
 description: Tap phone to phone for quick sharing without adding contacts.
 description_zh: 手机碰手机，一步完成图片/视频/WLAN/热点等分享（无需加好友）。
-img: /assets/img/harmony-tap-phone/cover.svg
+img: /assets/img/harmony-tap-phone/qq/inews.gtimg.com_om_bt_OdqXivOgeF2eU6JsQQfRcIqeXMMLBZwu4sp3ImVJowLzEAA_1000.jpg
 importance: 8
 category: work
 ---
@@ -22,7 +22,7 @@ This page summarizes the HarmonyOS “Tap-to-Share / 碰一碰” experience for
   <li data-i18n-content-key="p8.what.w3">After the tap animation appears, the sender performs an “up-swipe” action to send, and the receiver taps to accept (as described in reports).</li>
 </ul>
 
-<img src="/assets/img/harmony-tap-phone/items.svg" alt="Typical shareable items" style="display:block; width:min(100%, 860px); height:auto; margin:0 auto 1rem; border-radius:12px;">
+<img src="/assets/img/harmony-tap-phone/qq/inews.gtimg.com_om_bt_OdqXivOgeF2eU6JsQQfRcIqeXMMLBZwu4sp3ImVJowLzEAA_1000.jpg" alt="HarmonyOS NEXT 碰一碰（腾讯新闻配图）" style="display:block; width:min(100%, 860px); height:auto; margin:0 auto 1rem; border-radius:12px;">
 
 <h3 data-i18n-content-key="p8.how.heading">Basic flow (reference)</h3>
 <ol>
@@ -32,7 +32,7 @@ This page summarizes the HarmonyOS “Tap-to-Share / 碰一碰” experience for
   <li data-i18n-content-key="p8.how.s4">Follow on-screen prompts: sender swipes up to send; receiver taps to accept.</li>
 </ol>
 
-<img src="/assets/img/harmony-tap-phone/flow.svg" alt="Tap-to-Share phone-to-phone flow" style="display:block; width:min(100%, 860px); height:auto; margin:0 auto 1rem; border-radius:12px;">
+<img src="/assets/img/harmony-tap-phone/qq/inews.gtimg.com_om_bt_OYqTA5jC6t46u6dxV0WnuiOu5tBXbYS0SrZeloFzMbGuIAA_1000.jpg" alt="碰一碰操作示意（腾讯新闻配图）" style="display:block; width:min(100%, 860px); height:auto; margin:0 auto 1rem; border-radius:12px;">
 
 <h3 data-i18n-content-key="p8.notes.heading">Notes / constraints</h3>
 <ul>
