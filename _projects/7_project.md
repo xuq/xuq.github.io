@@ -9,42 +9,46 @@ importance: 7
 category: work
 ---
 
-## 鸿蒙新碰一碰：手机碰屏幕 / 跨端互联
+<h2 data-i18n-content-key="p7.h2">HarmonyOS Tap-to-Share (Phone to Screen)</h2>
 
-本页面整理“碰一碰”类跨端互联体验：把文件分享、连接网络等多步骤流程，压缩成一次更符合物理直觉的轻触动作。
+<p data-i18n-content-key="p7.intro">
+This page summarizes a HarmonyOS cross-device experience commonly described as “Tap-to-Share / 碰一碰” — compressing multi-step sharing/connecting workflows into a single, physical gesture.
+</p>
 
-### 体验动机（解决什么问题）
+<h3 data-i18n-content-key="p7.problem.heading">What problem it targets</h3>
+<ul>
+  <li data-i18n-content-key="p7.problem.f1"><strong>Friction</strong>: traditional transfer relies on cables, cloud drives, or multi-step app flows that interrupt thinking.</li>
+  <li data-i18n-content-key="p7.problem.f2"><strong>Context switching</strong>: users lose attention when the system asks them to pick devices, confirm pairing, or handle permissions repeatedly.</li>
+</ul>
 
-- **降低摩擦**：传统跨端传输往往依赖数据线/网盘/第三方应用，步骤多、打断思路。
-- **降低切换成本**：减少“选设备/配对/确认权限/找入口”的频繁中断。
+<h3 data-i18n-content-key="p7.core.heading">Core experience idea</h3>
+<ul>
+  <li data-i18n-content-key="p7.core.c1"><strong>Direct manipulation</strong>: “touch device A to device B” maps to “send from A to B”.</li>
+  <li data-i18n-content-key="p7.core.c2"><strong>Fusion sensing</strong>: the system can infer where the phone touches and which window/app is the target (as described in reports).</li>
+  <li data-i18n-content-key="p7.core.c3"><strong>One-step import</strong>: touch a running app window to directly import media/content (as described in reports).</li>
+</ul>
 
-### 核心交互（是什么）
+<h3 data-i18n-content-key="p7.images.heading">Illustrations (official support images)</h3>
 
-- **Direct manipulation**：用“触碰”来表达“发送到这里”。
-- **融合感知**：系统可感知触碰位置，并推断目标窗口/应用（媒体报道描述）。
-- **一步导入**：将手机素材直接导入电脑端已打开的编辑/创作应用窗口（媒体报道描述）。
+<img src="/assets/img/harmony-touch-official/kv-pc.png" alt="Huawei Share / OneHop (official support image)" style="display:block; width:min(100%, 760px); height:auto; margin:0 auto 1rem; border-radius:12px;">
 
-### 配图（优先使用官方支持页素材）
+<img src="/assets/img/harmony-touch-official/section5-1.png" alt="Tap-to-transfer file flow (official support image)" style="display:block; width:min(100%, 760px); height:auto; margin:0 auto 1rem; border-radius:12px;">
 
-![Huawei Share / OneHop（官方支持页配图）](/assets/img/harmony-touch-official/kv-pc.png)
+<img src="/assets/img/harmony-touch-official/section4-4.png" alt="Multi-screen collaboration illustration (official support image)" style="display:block; width:min(100%, 760px); height:auto; margin:0 auto 1rem; border-radius:12px;">
 
-![手机电脑一碰互传文件（官方支持页配图）](/assets/img/harmony-touch-official/section5-1.png)
+<h3 data-i18n-content-key="p7.images.extra.heading">Additional public screenshots (for reference)</h3>
 
-![多屏协同示意（官方支持页配图）](/assets/img/harmony-touch-official/section4-4.png)
+<img src="/assets/img/harmony-touch/tap-taobao.png" alt="Tap-to-share example (source: China Daily)" style="display:block; width:min(100%, 520px); height:auto; max-height:720px; object-fit:contain; background:#f7f7f7; margin:0 auto 1rem; border-radius:12px;">
 
-### 补充截图（新闻页示意，仅作参考）
+<img src="/assets/img/harmony-touch/tap-keep.png" alt="Tap-to-team-up example (source: China Daily)" style="display:block; width:min(100%, 520px); height:auto; max-height:720px; object-fit:contain; background:#f7f7f7; margin:0 auto 1rem; border-radius:12px;">
 
-![碰一碰分享示意（截图来源：中国日报网）](/assets/img/harmony-touch/tap-taobao.png)
+<h3 data-i18n-content-key="p7.links.heading">Links / sources</h3>
+<ul>
+  <li><span data-i18n-content-key="p7.links.l1">Huawei official support page (Huawei Share / OneHop)</span>: <a href="https://consumer.huawei.com/cn/support/huaweishareonehop/">https://consumer.huawei.com/cn/support/huaweishareonehop/</a></li>
+  <li><span data-i18n-content-key="p7.links.l2">IT之家 report</span>: <a href="https://www.ithome.com/0/891/456.htm">https://www.ithome.com/0/891/456.htm</a></li>
+  <li><span data-i18n-content-key="p7.links.l3">China Daily report (screenshots)</span>: <a href="https://tech.chinadaily.com.cn/a/202412/12/WS675aaa2aa310b59111da882b.html">https://tech.chinadaily.com.cn/a/202412/12/WS675aaa2aa310b59111da882b.html</a></li>
+</ul>
 
-![碰一碰组队示意（截图来源：中国日报网）](/assets/img/harmony-touch/tap-keep.png)
-
-### Links / sources
-
-- 华为官网：华为分享 / 一碰互联与多屏协同说明与配图
-  - https://consumer.huawei.com/cn/support/huaweishareonehop/
-- IT之家：HarmonyOS 6 / 鸿蒙电脑“碰一碰”与跨端互联描述
-  - https://www.ithome.com/0/891/456.htm
-- 中国日报网：手机间“碰一碰”场景与截图来源
-  - https://tech.chinadaily.com.cn/a/202412/12/WS675aaa2aa310b59111da882b.html
-
-> Note: Images on this page are sourced from public Huawei support pages and public news pages, used here for reference/illustration.
+<p style="opacity:0.8; font-size:0.95em;">
+Note: Images on this page are sourced from public Huawei support pages and public news pages, used here for reference/illustration.
+</p>
