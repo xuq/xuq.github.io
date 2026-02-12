@@ -968,17 +968,6 @@ progress::-moz-progress-bar {
 .navbar-nav .toggle-container {
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: 100%;
-
-  @media (min-width: 576px) {
-    min-height: 56px;
-  }
-
-  @media (max-width: 575.98px) {
-    justify-content: flex-end;
-    padding: 0.25rem 0;
-  }
 }
 
 /* Table of Contents */
