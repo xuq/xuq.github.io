@@ -1,0 +1,498 @@
+@article{xu2015device,
+  title={Device fingerprinting in wireless networks: Challenges and opportunities},
+  author={Xu, Qiang and Zheng, Rong and Saad, Walid and Han, Zhu},
+  journal={IEEE Communications Surveys \& Tutorials},
+  volume={18},
+  number={1},
+  pages={94--104},
+  year={2015},
+  publisher={IEEE}
+}
+
+@inproceedings{xu2015idyll,
+  title={IDyLL: indoor localization using inertial and light sensors on smartphones},
+  author={Xu, Qiang and Zheng, Rong and Hranilovic, Steve},
+  booktitle={Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing},
+  pages={307--318},
+  year={2015},
+  organization={ACM}
+}
+
+@inproceedings{xu2014toward,
+  title={Toward automated categorization of mobile health and fitness applications},
+  author={Xu, Qiang and Ibrahim, George and Zheng, Rong and Archer, Norm},
+  booktitle={Proceedings of the 4th ACM MobiHoc workshop on Pervasive wireless healthcare},
+  pages={49--54},
+  year={2014}
+}
+
+@article{xu2013data,
+  title={Data Mining Approaches for Habitats and Stopovers Discovery of Migratory Birds},
+  author={Xu, Qiang and Luo, Ze and Wei, Ying and Yan, Baoping},
+  journal={Data Science Journal},
+  volume={12},
+  pages={WDS159--WDS169},
+  year={2013},
+  publisher={CODATA}
+}
+
+@article{yan2013predicting,
+  title={Predicting Search Engine Switching in WSCD 2013 Challenge},
+  author={Yan, Qiang and Wang, Xingxing and Xu, Qiang and Kong, Dongying and Bickson, Danny and Yuan, Quan and Yang, Qing},
+  year={2013}
+}
+
+@inproceedings{xu2015automated,
+  title={Automated Detection of Burned-out Luminaries Using Indoor Positioning},
+  author={Xu, Qiang and Zheng, Rong},
+  booktitle={International Conference on Indoor Positioning and Indoor Navigation},
+  year={2015},
+  organization={IEEE}
+}
+
+@inproceedings{xu2016mobibee,
+  title={MobiBee: A mobile treasure hunt game for location-dependent fingerprint collection},
+  author={Xu, Qiang and Zheng, Rong},
+  booktitle={Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing: Adjunct},
+  pages={1472--1477},
+  year={2016}
+}
+
+@inproceedings{li2017turf,
+  title={TuRF: Fast data collection for fingerprint-based indoor localization},
+  author={Li, Chenhe and Xu, Qiang and Gong, Zhe and Zheng, Rong},
+  booktitle={2017 international conference on indoor positioning and indoor navigation (IPIN)},
+  pages={1--8},
+  year={2017},
+  organization={IEEE}
+}
+
+@inproceedings{xu2017detecting,
+  title={Detecting Location Fraud in Indoor Mobile Crowdsensing},
+  author={Xu, Qiang and Zheng, Rong and Tahoun, Ezzeldin},
+  booktitle={The First ACM Workshop on Mobile Crowdsensing Systems and Applications(CrowdSenSys '17)},
+  pages={44--49},
+  year={2017}
+}
+
+@inproceedings{xu2017data,
+  title={When data acquisition meets data analytics: A distributed active learning framework for optimal budgeted mobile crowdsensing},
+  author={Xu, Qiang and Zheng, Rong},
+  booktitle={IEEE INFOCOM 2017-IEEE Conference on Computer Communications},
+  pages={1--9},
+  year={2017},
+  organization={IEEE}
+}
+
+@article{li2017robot,
+  title={Robot-assisted fingerprint-based indoor localization},
+  author={Li, Chenhe and Frincu, Cristian and Gong, Zhe and Xu, Qiang and Zheng, Rong},
+  journal={Microsoft Indoor Localization Competition, Tech. Rep.},
+  year={2017}
+}
+
+@misc{liu2020cloud,
+  title={Cloud-offloaded position calculation with on-device acquisition},
+  author={Liu, Jie and Priyantha, Nissanka Arachchige Bodhi and Joppa, Lucas N and Xu, Qiang},
+  year={2020},
+  month=jan # "~28",
+  publisher={Google Patents},
+  note={US Patent 10,545,244}
+}
+
+@inproceedings{saniee2020tent,
+  title={Tent mode interactions: Exploring collocated multi-user interaction on a foldable device},
+  author={Saniee-Monfared, Gazelle and Fan, Kevin and Xu, Qianq and Mizobuchi, Sachi and Zhou, Lewis and Irani, Pourang Polad and Li, Wei},
+  booktitle={22nd International Conference on Human-Computer Interaction with Mobile Devices and Services},
+  pages={1--12},
+  year={2020}
+}
+
+@inproceedings{chen2021empirical,
+  title={Empirical Studies of Acquiring Moving Targets with Egocentric Metaphors in Virtual Reality},
+  author={Chen, Yuan and Sun, Junwei and Xu, Qiang and Lank, Edward and Irani, Pourang and Li, Wei},
+  booktitle={the 18th International Conference promoted by the IFIP Technical Committee 13 on Human--Computer Interaction(INTERACT 2021)},
+  year={2021}
+}
+
+@inproceedings{chen2021global,
+  title={Global Scene Filtering, Exploration, and Pointing in Occluded Virtual Space},
+  author={Chen, Yuan and Sun, Junwei and Xu, Qiang and Lank, Edward and Irani, Pourang and Li, Wei},
+  booktitle={18th International Conference promoted by the IFIP Technical Committee 13 on Human--Computer Interaction (INTERACT 2021)},
+  year={2021}
+}
+
+@inproceedings{sun2021penshaft,
+  title={PenShaft: Enabling Pen Shaft Detection and Interaction for Touchscreens},
+  author={Sun, Junwei and Foley, Margaret and Xu, Qiang and Li, Chenhe and Li, Jun and Irani, Pourang and Li, Wei},
+  booktitle={12th Augmented Human International Conference (AH2021)},
+  year={2021}
+}
+
+@misc{wei2020timeline,
+  title={Timeline user interface},
+  author={Wei, Li and Sachi, Mizobuchi and Qiang, Xu and Wei, Zhou and Jianpeng, Xu},
+  year={2020},
+  month=apr,
+  note={US Patent US20210294485A1}
+}
+
+@misc{xu2021input,
+  title={Input method and related equipment},
+  author={Xu, Qiang and Masson, Damien and Liu, Zhe and Lank, Ed and Wu, Wenhao},
+  year={2021},
+  month=jan # "~12",
+  note={CN Patent CN112,218,134 A}
+}
+
+@inproceedings{chen2021empirical,
+  title={Empirical evaluation of moving target selection in virtual reality using egocentric metaphors},
+  author={Chen, Yuan and Sun, Junwei and Xu, Qiang and Lank, Edward and Irani, Pourang and Li, Wei},
+  booktitle={IFIP Conference on Human-Computer Interaction},
+  pages={29--50},
+  year={2021},
+  organization={Springer International Publishing Cham}
+}
+
+@misc{gaganpreet2021managing,
+  title={Managing user interface items in a visual user interface (VUI)},
+  author={Gaganpreet, Singh and Qiang, Xu and Wei, Li},
+  year={2021},
+  month=sep,
+  note={US Patent US11132104B1}
+}
+
+@misc{xu2022touch,
+  title={Touch input tool and system},
+  author={Xu, Qiang and Sun, Junwei and Li, Jun and Li, Chenhe and Li, Wei and Singh, Gaganpreet},
+  year={2022},
+  month=feb # "~15",
+  note={US Patent 11,249,565}
+}
+
+@misc{fan2021system,
+  title={System and method for video processing using a virtual reality device},
+  author={FAN, Szu Wen and Hengguang, ZHOU and Xu, Qiang and Li, Wei},
+  year={2021},
+  month=nov # "~11",
+  note={US Patent App. 17/244,807}
+}
+
+@misc{li2024timeline,
+  title={Timeline user interface},
+  author={Li, Wei and Mizobuchi, Sachi and Xu, Qiang and Zhou, Wei and Xu, Jianpeng},
+  year={2024},
+  month=dec # "~10",
+  note={US Patent 12,164,756}
+}
+
+@misc{singh2021managing,
+  title={Managing user interface items in a visual user interface (VUI)},
+  author={Singh, Gaganpreet and Xu, Qiang and Li, Wei},
+  year={2021},
+  month=sep # "~28",
+  note={US Patent 11,132,104}
+}
+
+@misc{xu2021using,
+  title={Using a stylus to modify display layout of touchscreen displays},
+  author={Xu, Qiang and Li, Jun and Sun, Junwei and Li, Chenhe and Li, Wei and Singh, Gaganpreet},
+  year={2021},
+  month=sep # "~14",
+  note={US Patent 11,119,652}
+}
+
+@misc{li2021using,
+  title={Using a touch input tool to modify content rendered on touchscreen displays},
+  author={Li, Wei and Li, Jun and Xu, Qiang and Li, Chenhe and Sun, Junwei and Singh, Gaganpreet},
+  year={2021},
+  month=nov # "~11",
+  note={US Patent App. 16/867,247}
+}
+
+@misc{singh2022devices,
+  title={Devices and methods for fast navigation in a multi-attributed search space of electronic devices},
+  author={Singh, Gaganpreet and Xu, Qiang and Li, Wei},
+  year={2022},
+  month=aug # "~16",
+  note={US Patent 11,416,138}
+}
+
+@misc{wang2025resource,
+  title={Resource allocation method and apparatus, communication system, and storage medium},
+  author={Wang, Xuefeng and Qinghua, LAN and Xu, Qiang},
+  year={2025},
+  month=sep # "~9",
+  note={US Patent 12,413,267}
+}
+
+@misc{li2023devices,
+  title={Devices, systems, and methods for multi-device interactions},
+  author={Li, Wei and Huang, Da-Yuan and Xu, Qiang},
+  year={2023},
+  month=feb # "~14",
+  note={US Patent 11,579,712}
+}
+
+@misc{he2023device,
+  title={Device searching method and electronic device},
+  author={He, Yanshan and Xu, Qiang and Zhou, Xuan},
+  year={2023},
+  month=apr # "~11",
+  note={US Patent 11,627,437}
+}
+
+@article{zhao2023modeling,
+  title={Modeling user reviews through bayesian graph attention networks for recommendation},
+  author={Zhao, Yu and Xu, Qiang and Zou, Ying and Li, Wei},
+  journal={ACM Transactions on Information Systems},
+  volume={41},
+  number={3},
+  pages={1--29},
+  year={2023},
+  publisher={ACM New York, NY}
+}
+
+@misc{mulpuri2022systems,
+  title={Systems and methods for gaze prediction on touch-enabled devices using touch interactions},
+  author={MULPURI, Vijaya Krishna and Xu, Qiang and Li, Wei and Li, Chenhe and Li, Xiaoliang},
+  year={2022},
+  month=oct # "~18",
+  note={US Patent 11,474,598}
+}
+
+@misc{xu2024method,
+  title={Method and apparatus for flexible local tracking},
+  author={Xu, Qiang and Li, Wei and Liu, Zhe},
+  year={2024},
+  month=oct # "~1",
+  note={US Patent 12,102,873}
+}
+
+@misc{xu2023activating,
+  title={Activating cross-device interaction with pointing gesture recognition},
+  author={Xu, Qiang and Long, Jiayu and Liu, Zhe and Li, Wei and Yang, Tong},
+  year={2023},
+  month=feb # "~9",
+  note={US Patent App. 17/966,332}
+}
+
+@phdthesis{xu2018fingerprints,
+  title={Fingerprints for Indoor Localization},
+  author={Xu, Qiang},
+  year={2018}
+}
+
+@article{zhang2023pi,
+  title={Pi-vimo: Physiology-inspired robust vital sign monitoring using mmwave radars},
+  author={Zhang, Bo and Jiang, Boyu and Zheng, Rong and Zhang, Xiaoping and Li, Jun and Xu, Qiang},
+  journal={ACM Transactions on Internet of Things},
+  volume={4},
+  number={2},
+  pages={1--27},
+  year={2023},
+  publisher={ACM New York, NY}
+}
+
+@misc{qiao2023location,
+  title={Location Processing Method and Related Device},
+  author={Qiao, Yixiang and Zhou, Xuan and Xu, Qiang and Xu, Jie and Long, Jiayu and WU, Siju and DONG, Mingjie},
+  year={2023},
+  month=jun # "~8",
+  note={US Patent App. 18/164,269}
+}
+
+@misc{he2024device,
+  title={Device searching method and electronic device},
+  author={He, Yanshan and Xu, Qiang and Zhou, Xuan},
+  year={2024},
+  month=jan # "~30",
+  note={US Patent 11,889,386}
+}
+
+@misc{xu2023wireless,
+  title={Wireless sensing units, systems, methods, and media},
+  author={Xu, Qiang and Li, Jun and Li, Chenhe},
+  year={2023},
+  month=jul # "~11",
+  note={US Patent 11,699,048}
+}
+
+@misc{zhao2023security,
+  title={Security Isolation Apparatus and Method},
+  author={Zhao, Junhua and Ding, Tianhong and Jia, Yanlei and Xu, Qiang},
+  year={2023},
+  month=oct # "~26",
+  note={US Patent App. 18/344,404}
+}
+
+@misc{xu2023devices,
+  title={Devices, methods, systems, and media for spatial perception assisted noise identification and cancellation},
+  author={Xu, Qiang and MULPURI, Vijaya Krishna and Zhou, Xuan},
+  year={2023},
+  month=dec # "~28",
+  note={US Patent App. 18/463,768}
+}
+
+@article{shimon2024exploring,
+  title={Exploring Uni-manual Around Ear Off-Device Gestures for Earables},
+  author={Shimon, Shaikh Shawon Arefin and Neshati, Ali and Sun, Junwei and Xu, Qiang and Zhao, Jian},
+  journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+  volume={8},
+  number={1},
+  pages={1--29},
+  year={2024},
+  publisher={ACM New York, NY, USA}
+}
+
+@article{shawon2024exploring,
+  title={Exploring Uni-manual Around Ear Off-Device Gestures for Earables},
+  author={Shawon Arefin Shimon, Shaikh and Neshati, Ali and Sun, Junwei and Xu, Qiang and Zhao, Jian},
+  journal={arXiv e-prints},
+  pages={arXiv--2401},
+  year={2024}
+}
+
+@misc{liu2024methods,
+  title={Methods, devices, and media for scaling smart watch GUI based on initial stroke position},
+  author={Liu, Zhe and Xu, Qiang and RATEAU, Hana{\"e} and MASSON, Damien and Lank, Edward},
+  year={2024},
+  month=sep # "~3",
+  note={US Patent 12,079,457}
+}
+
+@misc{xu2024method,
+  title={Method and apparatus for detecting relative location between devices},
+  author={Xu, Qiang and Li, Chenhe and He, Yanshan and Wu, Wenhao and Wang, Shuai and PENG, Hongxing and Li, Shiming},
+  year={2024},
+  month=mar # "~21",
+  note={US Patent App. 18/264,869}
+}
+
+@misc{he2024device,
+  title={Device searching method and electronic device},
+  author={He, Yanshan and Xu, Qiang and Zhou, Xuan},
+  year={2024},
+  month=dec # "~3",
+  note={US Patent 12,160,796}
+}
+
+@misc{sun2024devices,
+  title={Devices and methods for remote control and annotation associated with an electronic device},
+  author={Sun, Junwei and Li, Jun and Liu, Zhe and Xu, Qiang and Wu, Wenhao and Wang, Jiaxi and BAI, Zhongjia and Zhang, Yanhai},
+  year={2024},
+  month=sep # "~19",
+  note={US Patent App. 18/678,685}
+}
+
+@misc{xu2024devices,
+  title={Devices and methods for optimizing electronic device usage by visualizing access history on an always-on display},
+  author={Xu, Qiang and Li, Wei},
+  year={2024},
+  month=oct # "~22",
+  note={US Patent 12,124,620}
+}
+
+@misc{hongxing2024audio,
+  title={Audio stream processing method, address processing method, and related device},
+  author={Hongxing, PENG and Zhou, Xuan and Xu, Qiang and Wang, Shuai and Li, Shiming and Gong, Yan and Long, Jiayu and Hu, Liang and Xu, Jie},
+  year={2024},
+  month=dec # "~19",
+  note={US Patent App. 18/695,080}
+}
+
+@misc{li2025timeline,
+  title={Timeline user interface},
+  author={Li, Wei and Mizobuchi, Sachi and Xu, Qiang and Zhou, Wei and Xu, Jianpeng},
+  year={2025},
+  month=feb # "~13",
+  note={US Patent App. 18/933,449}
+}
+
+@misc{xu2024data,
+  title={Data stream transmission method, device, communication apparatus, and storage medium},
+  author={Xu, Qiang and Wu, Wenhao and Zhou, Xuan and Li, Chenhe and Li, Jun and He, Yanshan and Zhai, Yibin},
+  year={2024},
+  month=aug # "~15",
+  note={US Patent App. 18/568,838}
+}
+
+@misc{wu2025wrist,
+  title={Wrist-worn device control method, related system, and storage medium},
+  author={Wu, Wenhao and ZHANG, Nu and Xu, Qiang and Long, Shuiping and Lin, Ching Szu and MULPURI, Vijaya Krishna and WU, Siju},
+  year={2025},
+  month=mar # "~13",
+  note={US Patent App. 18/955,991}
+}
+
+@misc{he2025device,
+  title={Device Searching Method and Electronic Device},
+  author={He, Yanshan and Xu, Qiang and Zhou, Xuan},
+  year={2025},
+  month=apr # "~17",
+  note={US Patent App. 18/930,186}
+}
+
+@misc{xu2025methods,
+  title={Methods and systems supporting multi-display interaction using wearable device},
+  author={Xu, Qiang and Li, Ting and Singh, Gaganpreet and FANG, Tia and Sun, Junwei},
+  year={2025},
+  month=aug # "~21",
+  note={US Patent App. 19/196,851}
+}
+
+@misc{xu2025using,
+  title={Using on-body microphone to improve user interaction with smart devices},
+  author={Xu, Qiang and Li, Ting and Liu, Zhe and Li, Chenhe and Zhang, Tianyu},
+  year={2025},
+  month=sep # "~11",
+  note={US Patent App. 19/215,190}
+}
+
+@misc{hongxing2025location,
+  title={Location obtaining method and related device},
+  author={Hongxing, PENG and Zhou, Xuan and Xu, Qiang and Wang, Shuai and Li, Shiming and Gong, Yan and Long, Jiayu and Hu, Liang and Xu, Jie},
+  year={2025},
+  month=oct # "~16",
+  note={US Patent App. 18/705,748}
+}
+
+@article{li2023regulatory,
+  title={Regulatory effect and mechanism of total alkaloids of Rhizoma Corydalis on hippocampal silencing information regulator 1/tumor suppressor P53 protein signaling pathway in rats with chronic cerebral ischemia},
+  author={LI, Jun and QI, Yazhi and TANG, Ya and CAO, Rui and ZHAI, Yanling and HAN, Yusheng and XU, Qiang},
+  journal={Chinese Journal of Cerebrovascular Diseases},
+  pages={837--845},
+  year={2023}
+}
+
+@misc{sun2025data,
+  title={Data processing method and related device},
+  author={Sun, Zhida and Wu, Wenhao and Xu, Qiang and Li, Chenhe and Liu, Zhe and GABRAN, Salam and ZHANG, Nu and He, Yanshan and CHEN, Taizhou and Zhai, Yibin and others},
+  year={2025},
+  month=oct # "~30",
+  note={US Patent App. 18/695,497}
+}
+
+@misc{long2025speech,
+  title={Speech interaction method and related device},
+  author={Long, Shuiping and Xu, Qiang and Wu, Wenhao and Zeng, Yuhao and Li, Chenhe},
+  year={2025},
+  month=dec # "~11",
+  note={US Patent App. 19/310,862}
+}
+
+@misc{li2025glasses,
+  title={Glasses, instruction obtaining method, and related device},
+  author={Li, Ting and Xu, Qiang and Liu, Zhe and YUAN, Qiyun and Yu, Luo and WU, Shanshan and Xiang, Yudi and Liu, Huiting},
+  year={2025},
+  month=dec # "~25",
+  note={US Patent App. 19/305,713}
+}
+
+@misc{xu2026methods,
+  title={Methods and processors for proximity-based device collaboration},
+  author={Xu, Qiang and Li, Chenhe and ZHANG, Nu and SHEN, Zhuang and Chen, Xu and others},
+  year={2026},
+  month=jan # "~15",
+  note={US Patent App. 18/767,511}
+}
