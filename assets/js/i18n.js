@@ -281,7 +281,13 @@
       "p7.links.heading": "Links / sources",
       "p7.links.l1": "华为官网：华为分享 / 一碰互联与多屏协同说明与配图",
       "p7.links.l2": "IT之家：HarmonyOS 6 / 鸿蒙电脑“碰一碰”与跨端互联描述",
-      "p7.links.l3": "中国日报网：手机间“碰一碰”场景与截图来源"
+      "p7.links.l3": "中国日报网：手机间“碰一碰”场景与截图来源",
+      "p7.media.heading": "媒体",
+      "p7.media.caption": "视频来源：YouTube。",
+      "p7.links.yt": "YouTube 视频",
+      "p7.links.qq": "腾讯新闻（ZOL）文章",
+      "p7.links.it": "IT之家文章",
+      "p7.note": "注：本页暂不展示配图，视觉参考以视频与来源链接为准。"
     }
   };
 

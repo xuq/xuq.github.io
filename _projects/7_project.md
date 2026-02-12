@@ -2,9 +2,9 @@
 layout: page
 title: HarmonyOS Tap-to-Share (Phone to Screen)
 title_zh: 鸿蒙新碰一碰（手机碰屏幕 / 跨端互联）
-description: A physical gesture to share/connect across devices (tap phone to screen).
-description_zh: 用“碰一碰”把跨端传输从配对/选择/发送，简化为一次符合物理直觉的轻触，实现跨设备内容分享与协同。
-img: /assets/img/harmony-touch-official/kv-pc.png
+description: Tap phone to screen for cross-device sharing and continuity.
+description_zh: 手机轻触屏幕，一步完成跨端分享与协同。
+img: /assets/img/harmony-touch/youtube_thumb.jpg
 importance: 7
 category: work
 ---
@@ -28,27 +28,30 @@ This page summarizes a HarmonyOS cross-device experience commonly described as �
   <li data-i18n-content-key="p7.core.c3"><strong>One-step import</strong>: touch a running app window to directly import media/content (as described in reports).</li>
 </ul>
 
-<h3 data-i18n-content-key="p7.images.heading">Illustrations (official support images)</h3>
+<h3 data-i18n-content-key="p7.media.heading">Media</h3>
 
-<img src="/assets/img/harmony-touch-official/kv-pc.png" alt="Huawei Share / OneHop (official support image)" style="display:block; width:min(100%, 760px); height:auto; margin:0 auto 1rem; border-radius:12px;">
-
-<img src="/assets/img/harmony-touch-official/section5-1.png" alt="Tap-to-transfer file flow (official support image)" style="display:block; width:min(100%, 760px); height:auto; margin:0 auto 1rem; border-radius:12px;">
-
-<img src="/assets/img/harmony-touch-official/section4-4.png" alt="Multi-screen collaboration illustration (official support image)" style="display:block; width:min(100%, 760px); height:auto; margin:0 auto 1rem; border-radius:12px;">
-
-<h3 data-i18n-content-key="p7.images.extra.heading">Additional public screenshots (for reference)</h3>
-
-<img src="/assets/img/harmony-touch/tap-taobao.png" alt="Tap-to-share example (source: China Daily)" style="display:block; width:min(100%, 520px); height:auto; max-height:720px; object-fit:contain; background:#f7f7f7; margin:0 auto 1rem; border-radius:12px;">
-
-<img src="/assets/img/harmony-touch/tap-keep.png" alt="Tap-to-team-up example (source: China Daily)" style="display:block; width:min(100%, 520px); height:auto; max-height:720px; object-fit:contain; background:#f7f7f7; margin:0 auto 1rem; border-radius:12px;">
+<figure>
+  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px;">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/OW24GbsYIlU"
+      title="HarmonyOS Tap-to-Share (碰一碰)"
+      style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  </div>
+  <figcaption class="caption" data-i18n-content-key="p7.media.caption">
+    视频来源：YouTube。
+  </figcaption>
+</figure>
 
 <h3 data-i18n-content-key="p7.links.heading">Links / sources</h3>
 <ul>
-  <li><span data-i18n-content-key="p7.links.l1">Huawei official support page (Huawei Share / OneHop)</span>: <a href="https://consumer.huawei.com/cn/support/huaweishareonehop/">https://consumer.huawei.com/cn/support/huaweishareonehop/</a></li>
-  <li><span data-i18n-content-key="p7.links.l2">IT之家 report</span>: <a href="https://www.ithome.com/0/891/456.htm">https://www.ithome.com/0/891/456.htm</a></li>
-  <li><span data-i18n-content-key="p7.links.l3">China Daily report (screenshots)</span>: <a href="https://tech.chinadaily.com.cn/a/202412/12/WS675aaa2aa310b59111da882b.html">https://tech.chinadaily.com.cn/a/202412/12/WS675aaa2aa310b59111da882b.html</a></li>
+  <li><span data-i18n-content-key="p7.links.yt">YouTube 视频</span>：<a href="https://www.youtube.com/watch?v=OW24GbsYIlU">https://www.youtube.com/watch?v=OW24GbsYIlU</a></li>
+  <li><span data-i18n-content-key="p7.links.qq">腾讯新闻（ZOL）文章</span>：<a href="https://news.qq.com/rain/a/20251022A0740200">https://news.qq.com/rain/a/20251022A0740200</a></li>
+  <li><span data-i18n-content-key="p7.links.it">IT之家文章</span>：<a href="https://www.ithome.com/0/891/456.htm">https://www.ithome.com/0/891/456.htm</a></li>
 </ul>
 
-<p style="opacity:0.8; font-size:0.95em;">
-Note: Images on this page are sourced from public Huawei support pages and public news pages, used here for reference/illustration.
+<p style="opacity:0.8; font-size:0.95em;" data-i18n-content-key="p7.note">
+Note: This page intentionally does not include still images yet. Visual references are provided via the video and source links.
 </p>
