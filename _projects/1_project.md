@@ -2,6 +2,7 @@
 layout: page
 title: Celia Whisper
 description: Hands-free voice assistant interaction via raise-to-speak gesture, shipped on Huawei flagship devices.
+img: /assets/img/celia-whisper/cover.jpg
 importance: 1
 category: work
 ---
