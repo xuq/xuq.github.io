@@ -1,7 +1,8 @@
 ---
 layout: page
-title: HarmonyOS Hand-Eye Collaboration
-title_zh: 鸿蒙手眼同行
+title: HarmonyOS Hand-Eye Collaboration (2023-08-29)
+title_zh: 鸿蒙手眼同行 (2023-08-29)
+release_date: 2023-08-29
 description: Switch cursor to the looked-at device with Ctrl during keyboard-mouse sharing.
 description_zh: 键鼠共享时可通过注视设备并按 Ctrl 快速切换光标目标设备。
 img: /assets/img/hand-eye/cover.png

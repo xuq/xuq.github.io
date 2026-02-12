@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Huawei M-Pencil Pro (with Microphone)
-title_zh: 华为 HUAWEI M-Pencil Pro（带麦克风的手写笔）
+title: Huawei M-Pencil Pro (with Microphone) (2023-08-29)
+title_zh: 华为 HUAWEI M-Pencil Pro（带麦克风的手写笔） (2023-08-29)
+release_date: 2023-08-29
 description: A stylus with an omnidirectional microphone and a smart button for voice interaction and speech-to-text on Huawei tablets.
 description_zh: 结合全向拾音麦克风与智慧键，实现语音交互/语音转文本等能力的华为手写笔（适配部分华为平板）。
 img: /assets/img/m-pencil-pro/kv.png

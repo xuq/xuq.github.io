@@ -1,7 +1,8 @@
 ---
 layout: page
-title: HarmonyOS Tap-to-Share (Phone to Phone)
-title_zh: 鸿蒙碰一碰（手机碰手机）
+title: HarmonyOS Tap-to-Share (Phone to Phone) (2024-12-10)
+title_zh: 鸿蒙碰一碰（手机碰手机） (2024-12-10)
+release_date: 2024-12-10
 description: Tap phone to phone for quick sharing without adding contacts.
 description_zh: 手机碰手机，一步完成图片/视频/WLAN/热点等分享（无需加好友）。
 img: /assets/img/harmony-tap-phone/qq/inews.gtimg.com_om_bt_OdqXivOgeF2eU6JsQQfRcIqeXMMLBZwu4sp3ImVJowLzEAA_1000.jpg

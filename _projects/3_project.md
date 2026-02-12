@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Keyboard & Mouse Cross-Device Roaming
-title_zh: 键鼠穿越
+title: Keyboard & Mouse Cross-Device Roaming (2023-08-29)
+title_zh: 键鼠穿越 (2023-08-29)
+release_date: 2023-08-29
 description: Cursor boundary crossing across up to 3 hosts with keyboard-mouse collaboration.
 description_zh: 支持最多 3 台设备的鼠标跨屏穿越与键鼠协同。
 img: /assets/img/km-roaming/step-1.png
