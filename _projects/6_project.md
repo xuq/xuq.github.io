@@ -31,14 +31,21 @@ This project collects public information about <strong>HUAWEI M-Pencil Pro</stro
   <li><strong>Find my stylus</strong>: supports precise finding and loss reminders (supported devices only).</li>
 </ul>
 
-<img src="/assets/img/m-pencil-pro/ai-mic.png" alt="Smart button + microphone feature illustration (Huawei page thumbnail)" style="display:block; width:min(100%, 520px); margin:0 auto 1rem; border-radius:12px;">
+<img src="/assets/img/m-pencil-pro/ai-voice.webp" alt="Smart button + microphone feature illustration (Huawei page image)" style="display:block; width:min(100%, 520px); margin:0 auto 1rem; border-radius:12px;">
 
 <h3>Media</h3>
+<p><strong>Official page video</strong> (embedded):</p>
+<video controls playsinline preload="metadata" style="display:block; width:min(100%, 720px); margin:0 auto 1rem; border-radius:12px;">
+  <source src="https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/accessories/m-pencil-pro/videos/hero/huawei-m-pencil-pro-id-video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 <ul>
   <li>Official product page: <a href="https://consumer.huawei.com/cn/accessories/m-pencil-pro/">HUAWEI M-Pencil Pro</a></li>
-  <li>Official page video (mp4): <a href="https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/accessories/m-pencil-pro/videos/hero/huawei-m-pencil-pro-id-video.mp4">Watch / Download</a></li>
   <li>Support (compatibility list): <a href="https://consumer.huawei.com/cn/support/content/zh-cn00737675/">Supported Huawei tablets</a></li>
 </ul>
+
+<img src="/assets/img/m-pencil-pro/nearlink.webp" alt="NearLink illustration (Huawei page image)" style="display:block; width:min(100%, 520px); margin:0 auto 1rem; border-radius:12px;">
 
 <p style="opacity:0.8; font-size:0.95em;">
 Note: Images/videos above are sourced from Huawei public pages and are used here for reference/illustration.
