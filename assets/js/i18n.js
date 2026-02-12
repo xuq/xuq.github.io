@@ -154,7 +154,7 @@
       "about.intro.2":
         "我负责并推动落地的人机交互方向包括：人机交互、感知与交互、贴身感知、可穿戴计算、跨设备交互，以及语音交互（Speech Interaction / Voice UI）。近期工作覆盖可穿戴与多设备生态中的新型交互范式，如耳戴设备手势识别、智能手表交互、手写笔与触控输入、基于贴身麦克风的感知，以及面向智能设备的语音交互。",
       "about.intro.3":
-        "我在 ACM UbiComp/IMWUT、IEEE INFOCOM、ACM MobileHCI、IFIP INTERACT 等顶级会议和期刊发表研究成果，并拥有 50+ 项专利，方向涵盖跨设备交互、可穿戴设备控制、无线感知与空间感知。"
+        "我在 ACM UbiComp/IMWUT、IEEE INFOCOM、ACM MobileHCI、IFIP INTERACT 等顶级会议和期刊发表研究成果，并拥有 50+ 项专利，方向涵盖跨设备交互、可穿戴设备控制、无线感知与空间感知。",
       "teaching.body.1": "课程与指导相关资料将持续在此页面更新。",
       "teaching.body.2":
         "该页面将用于分享我在人机交互、感知系统与泛在计算方向的教学活动、讲座以及学习资源。",
