@@ -13,7 +13,8 @@ category: work
 
 <p data-i18n-content-key="p5.intro">Huawei Watch supports severe fall detection with SOS emergency assistance. After the feature is enabled, the watch can detect serious falls and trigger emergency actions, helping users reach contacts or public emergency services faster in critical situations.</p>
 
-<img src="/assets/img/watch-fall/add-contact.png" alt="Huawei watch emergency contact interface" style="display:block; width:min(100%, 760px); margin:0 auto 1rem; border-radius:12px;">
+<img src="/assets/img/watch-fall/add-contact.png" alt="Huawei watch emergency assistance interface" style="display:block; width:min(100%, 420px); margin:0 auto 1rem; border-radius:12px;">
+<img src="/assets/img/watch-fall/watch-gt6-black.png" alt="Huawei Watch product image" style="display:block; width:min(100%, 360px); margin:0 auto 1rem; border-radius:12px;">
 
 <h3 data-i18n-content-key="p5.auto.heading">Automatic Emergency Assistance After Fall Detection</h3>
 
@@ -34,11 +35,6 @@ category: work
   <li data-i18n-content-key="p5.setup.s2">On watch, open Settings > SOS Emergency Assistance (or Settings > Security & Privacy > SOS Emergency Assistance) and enable fall detection.</li>
   <li data-i18n-content-key="p5.setup.s3">If dual-SIM phone is connected through Bluetooth, set the default calling SIM in advance for reliable emergency dialing.</li>
 </ol>
-
-<h3 data-i18n-content-key="p5.gallery.heading">Gallery</h3>
-
-<img src="/assets/img/watch-fall/add-contact.png" alt="Add emergency contact page from Huawei support" style="display:block; width:min(100%, 760px); margin:0 auto 1rem; border-radius:12px;">
-<img src="/assets/img/watch-fall/contact-edit.png" alt="Emergency contact edit icon from Huawei support" style="display:block; width:min(100%, 320px); margin:0 auto 1rem; border-radius:12px;">
 
 <h3 data-i18n-content-key="p5.links.heading">Links</h3>
 
