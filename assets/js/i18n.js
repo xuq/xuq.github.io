@@ -100,7 +100,24 @@
       "p3.value.body":
         "This feature removes device-switch friction in daily workflows. It provides a natural cross-screen interaction model for office, study, and content creation scenarios, reducing context-switch overhead and improving multi-device efficiency.",
       "p3.links.heading": "Links",
-      "p3.links.l1": "Huawei Support Article"
+      "p3.links.l1": "Huawei Support Article",
+      "p4.h2": "HarmonyOS Hand-Eye Collaboration",
+      "p4.intro":
+        "This project extends cross-device keyboard and mouse sharing in HarmonyOS with gaze-assisted cursor switching. During keyboard-mouse sharing, users can look at another nearby screen and press Ctrl to move the cursor focus to that device, reducing manual boundary-crossing operations in multi-screen workflows.",
+      "p4.demo.heading": "Demo Video",
+      "p4.demo.caption": "Official cross-device keyboard-mouse sharing demo.",
+      "p4.feature.heading": "Feature Highlights",
+      "p4.feature.f1": "When keyboard-mouse sharing is enabled, gaze at the target device and press Ctrl to transfer cursor focus.",
+      "p4.feature.f2": "Works with cross-device keyboard typing, app operation, and drag-and-drop workflows.",
+      "p4.feature.f3": "Improves continuity and speed in multi-device office and content-creation scenarios.",
+      "p4.setup.heading": "Setup Path",
+      "p4.setup.s1": "Enable Keyboard-Mouse Sharing on both devices (Settings > Multi-device > Keyboard-Mouse Sharing).",
+      "p4.setup.s2": "On both devices, turn on Hand-Eye Collaboration under keyboard-mouse sharing settings.",
+      "p4.setup.s3": "Adjust screen arrangement direction to match actual physical layout.",
+      "p4.setup.s4": "Look at the target device, then press Ctrl on the source device to switch cursor focus.",
+      "p4.gallery.heading": "Gallery",
+      "p4.links.heading": "Links",
+      "p4.links.l1": "Huawei Support Article"
     },
     zh: {
       "nav.about": "关于",
@@ -199,7 +216,24 @@
       "p3.value.body":
         "该能力显著降低了多设备工作流中的切换成本。通过更自然的跨屏交互模型，用户可在办公、学习和创作场景中提升协同效率与连续性。",
       "p3.links.heading": "相关链接",
-      "p3.links.l1": "华为支持文章"
+      "p3.links.l1": "华为支持文章",
+      "p4.h2": "鸿蒙手眼同行",
+      "p4.intro":
+        "该项目在鸿蒙跨设备键鼠共享基础上进一步引入注视驱动的光标切换能力。开启键鼠共享后，用户注视目标设备并按下 Ctrl 键，即可将光标快速切换到被注视设备，降低多屏协同中的手动穿越操作成本。",
+      "p4.demo.heading": "演示视频",
+      "p4.demo.caption": "官方跨设备键鼠共享演示视频。",
+      "p4.feature.heading": "功能亮点",
+      "p4.feature.f1": "开启键鼠共享后，可通过注视目标设备并按 Ctrl 键完成光标焦点切换。",
+      "p4.feature.f2": "可与跨设备键盘输入、应用操作与拖拽传输能力协同使用。",
+      "p4.feature.f3": "在多设备办公和创作场景中显著提升连续性与切换效率。",
+      "p4.setup.heading": "配置路径",
+      "p4.setup.s1": "在双方设备开启键鼠共享（设置 > 多设备协同 > 键鼠共享）。",
+      "p4.setup.s2": "在双方设备的键鼠共享设置中开启手眼同行。",
+      "p4.setup.s3": "根据真实摆放关系调整设备屏幕排列方向。",
+      "p4.setup.s4": "注视目标设备后，在源设备按下 Ctrl 键即可切换光标焦点。",
+      "p4.gallery.heading": "效果展示",
+      "p4.links.heading": "相关链接",
+      "p4.links.l1": "华为支持文章"
     }
   };
 
