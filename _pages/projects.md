@@ -9,6 +9,10 @@ nav: true
 nav_order: 2
 display_categories: [work]
 horizontal: false
+# Performance: this page doesn't need MathJax, zoom, or bootstrap-table
+enable_math: false
+enable_medium_zoom: false
+enable_bootstrap_table: false
 ---
 
 <!-- pages/projects.md -->

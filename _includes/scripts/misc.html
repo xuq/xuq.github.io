@@ -5,7 +5,8 @@
   </script>
 {%- endif %}
 
-{%- if site.enable_medium_zoom %}
+{%- assign _enable_medium_zoom = page.enable_medium_zoom | default: site.enable_medium_zoom -%}
+{%- if _enable_medium_zoom %}
   <!-- Medium Zoom JS -->
   <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@{{ site.medium_zoom.version }}/dist/medium-zoom.min.js" integrity="{{ site.medium_zoom.integrity }}" crossorigin="anonymous"></script>
   <script defer src="{{ '/assets/js/zoom.js' | relative_url }}"></script>
@@ -16,8 +17,11 @@
   <script defer src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
 {% endif %}
 
+{%- assign _enable_bootstrap_table = page.enable_bootstrap_table | default: true -%}
+{%- if _enable_bootstrap_table -%}
   <!-- Bootstrap Table -->
   <script defer src="https://unpkg.com/bootstrap-table@{{ site.bootstrap-table.version }}/dist/bootstrap-table.min.js"></script>
+{%- endif -%}
 
   <!-- Load Common JS -->
   <script src="{{ '/assets/js/no_defer.js' | relative_url | bust_file_cache }}"></script>
