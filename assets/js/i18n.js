@@ -18,9 +18,9 @@
       "repo.github_repositories": "GitHub Repositories",
       "projects.category.work": "work",
       "about.intro.1":
-        "I am a Senior Principal Engineer and Research Lead at the Human-Machine Interaction Lab, Huawei Technologies Canada. I lead research in Human-Computer Interaction, Sensing & Interaction, On-Body Sensing, Wearable Computing, Cross-Device Interaction, and Speech Interaction (Voice UI).",
+        "I am a Senior Principal Engineer and Research Lead at the Human-Machine Interaction Lab, Huawei Technologies Canada. My work focuses on building new user experiences powered by novel machine learning and signal processing that fuse multiple sensor modalities (e.g., audio, motion, touch, proximity) into reliable and delightful interactions.",
       "about.intro.2":
-        "I received my Ph.D. from McMaster University in 2018, where my dissertation focused on fingerprint-based indoor localization. My current work spans novel interaction paradigms for wearable and multi-device ecosystems, including earable gesture recognition, smart watch interaction, stylus and touch input, on-body microphone-based sensing, and speech interaction for smart devices.",
+        "I lead research and productization in Human-Computer Interaction, Sensing & Interaction, On-Body Sensing, Wearable Computing, Cross-Device Interaction, and Speech Interaction (Voice UI). Recent efforts span wearable and multi-device ecosystems, including earable gesture recognition, smartwatch interaction, stylus and touch input, on-body microphone-based sensing, and speech interaction for smart devices.",
       "about.intro.3":
         "I have published at top venues including ACM UbiComp/IMWUT, IEEE INFOCOM, ACM MobileHCI, and IFIP INTERACT, and hold 80+ patents (30+ published) covering areas such as cross-device interaction, wearable device control, wireless sensing, and spatial perception.",
       "teaching.body.1": "Course and mentoring materials will be updated here over time.",
@@ -150,9 +150,9 @@
       "repo.github_repositories": "GitHub 仓库",
       "projects.category.work": "工作项目",
       "about.intro.1":
-        "我目前在华为加拿大人机交互实验室担任资深首席工程师和研究负责人，主要研究方向包括人机交互、感知与交互、贴身感知、可穿戴计算、跨设备交互以及语音交互。",
+        "我目前在华为加拿大人机交互实验室担任资深首席工程师和研究负责人。工作重点是用新颖的机器学习与信号处理方法，对多模态传感器数据（如音频、运动、触控、近距等）进行融合建模，从而打造更可靠、更自然的全新用户体验。",
       "about.intro.2":
-        "我于 2018 年获得麦克马斯特大学博士学位，博士研究聚焦于基于指纹的室内定位。当前工作覆盖可穿戴与多设备生态中的新型交互范式，包括耳戴设备手势识别、智能手表交互、手写笔与触控输入、基于贴身麦克风的感知，以及智能设备语音交互。",
+        "我负责并推动落地的人机交互方向包括：人机交互、感知与交互、贴身感知、可穿戴计算、跨设备交互，以及语音交互（Speech Interaction / Voice UI）。近期工作覆盖可穿戴与多设备生态中的新型交互范式，如耳戴设备手势识别、智能手表交互、手写笔与触控输入、基于贴身麦克风的感知，以及面向智能设备的语音交互。"
       "about.intro.3":
         "我在 ACM UbiComp/IMWUT、IEEE INFOCOM、ACM MobileHCI、IFIP INTERACT 等顶级会议和期刊发表研究成果，并拥有 80 余项专利（其中 30 余项已公开），方向涵盖跨设备交互、可穿戴设备控制、无线感知与空间感知。",
       "teaching.body.1": "课程与指导相关资料将持续在此页面更新。",
