@@ -324,9 +324,20 @@
 
   const applyContentTranslations = (lang) => {
     document.querySelectorAll("[data-i18n-content-key]").forEach((el) => {
+      // Preserve original content (assumed EN) so we can switch back.
+      if (!el.hasAttribute("data-i18n-en-content")) {
+        el.setAttribute("data-i18n-en-content", el.textContent || "");
+      }
+
       const key = el.getAttribute("data-i18n-content-key");
       const value = t(lang, key);
-      if (value) el.textContent = value;
+
+      if (value) {
+        el.textContent = value;
+      } else if (lang === "en") {
+        // If no EN translation exists, restore original English content.
+        el.textContent = el.getAttribute("data-i18n-en-content") || "";
+      }
     });
   };
 
