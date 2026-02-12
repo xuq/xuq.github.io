@@ -74,7 +74,33 @@
       "p2.summary":
         "In short, Huawei's Smart Parking Locator breaks the limitations of underground spaces and turns car retrieval into a smoother, faster experience. On your next trip, let your phone remember the floor and slot details so you can get back to your car with confidence.",
       "p2.links.heading": "Links",
-      "p2.links.l1": "Zhihu Article"
+      "p2.links.l1": "Zhihu Article",
+      "p3.h2": "Keyboard & Mouse Cross-Device Roaming",
+      "p3.intro":
+        "I led and delivered a cross-device interaction experience that allows HUAWEI wireless mouse and keyboard to roam across multiple hosts. After pairing with multiple tablets/PCs, users can move the mouse across screen boundaries to switch devices instantly, and the keyboard follows the mouse focus automatically for seamless multi-device productivity.",
+      "p3.demo.heading": "Demo Video",
+      "p3.demo.caption": "Keyboard & Mouse Cross-Device Roaming official demo.",
+      "p3.capability.heading": "Core Capability",
+      "p3.capability.c1": "Supports up to three hosts (tablet/PC) connected to one mouse and one keyboard.",
+      "p3.capability.c2": "Mouse cursor crosses device boundaries directly without pressing a manual switch key.",
+      "p3.capability.c3": "Keyboard follows the active mouse target automatically, enabling true keyboard-mouse collaboration.",
+      "p3.requirements.heading": "Compatibility And Version Requirements",
+      "p3.requirements.r1": "Tablet: Bluetooth 5.0+, HarmonyOS 3.0 to HarmonyOS 5.0, Smart Life App 13.0.1.315+.",
+      "p3.requirements.r2": "Supported HUAWEI Windows PC: Bluetooth 5.0+, PC Manager 13.0.2.300+.",
+      "p3.requirements.r3": "Other PCs: Windows 10+ or macOS 10.15+, with the cross-device client installed.",
+      "p3.requirements.r4": "Firmware baseline: mouse 1.0.7.0+, 2.4G receiver 1.0.1.9+, keyboard X.0.0.158+.",
+      "p3.requirements.r5": "HarmonyOS 3.0 beta preview does not support this feature; HarmonyOS 3.0 official release does.",
+      "p3.flow.heading": "Configuration Flow",
+      "p3.flow.f1": "Upgrade required apps/clients and verify host Bluetooth capability.",
+      "p3.flow.f2": "Pair mouse/keyboard with one host, then complete peripheral firmware upgrade.",
+      "p3.flow.f3": "Repeat pairing for remaining hosts, then enable Mouse Roaming and Keyboard-Mouse Collaboration in device settings.",
+      "p3.flow.f4": "Adjust relative host positions in UI and validate boundary crossing in real usage.",
+      "p3.gallery.heading": "Gallery",
+      "p3.value.heading": "User Value",
+      "p3.value.body":
+        "This feature removes device-switch friction in daily workflows. It provides a natural cross-screen interaction model for office, study, and content creation scenarios, reducing context-switch overhead and improving multi-device efficiency.",
+      "p3.links.heading": "Links",
+      "p3.links.l1": "Huawei Support Article"
     },
     zh: {
       "nav.about": "关于",
@@ -147,7 +173,33 @@
       "p2.summary":
         "总的来说，精准寻车能力有效打破地下空间定位限制，让找车更高效、更省心。下一次出行，让手机帮你记住楼层与车位。",
       "p2.links.heading": "相关链接",
-      "p2.links.l1": "知乎原文"
+      "p2.links.l1": "知乎原文",
+      "p3.h2": "键鼠穿越",
+      "p3.intro":
+        "我主导并落地了华为无线键鼠跨设备穿越体验。用户将鼠标与键盘连接至多台平板/电脑后，可通过鼠标跨越屏幕边界快速切换目标设备，键盘输入焦点也会自动跟随，实现更流畅的多设备协同办公。",
+      "p3.demo.heading": "演示视频",
+      "p3.demo.caption": "键鼠穿越官方演示视频。",
+      "p3.capability.heading": "核心能力",
+      "p3.capability.c1": "支持一套键鼠连接最多 3 台平板/电脑主机。",
+      "p3.capability.c2": "鼠标可直接跨越屏幕边界切换设备，无需手动按键切换。",
+      "p3.capability.c3": "键盘可自动跟随鼠标焦点设备，实现键鼠协同穿越。",
+      "p3.requirements.heading": "兼容性与版本要求",
+      "p3.requirements.r1": "平板端：蓝牙 5.0+，HarmonyOS 3.0 至 HarmonyOS 5.0，智慧生活 App 13.0.1.315+。",
+      "p3.requirements.r2": "支持超级终端的华为 Windows 电脑：蓝牙 5.0+，电脑管家 13.0.2.300+。",
+      "p3.requirements.r3": "其他电脑：Windows 10+ 或 macOS 10.15+，并安装键鼠穿越客户端。",
+      "p3.requirements.r4": "固件要求：鼠标 1.0.7.0+，2.4G 接收器 1.0.1.9+，键盘 X.0.0.158+。",
+      "p3.requirements.r5": "HarmonyOS 3.0 内测版本暂不支持该能力，HarmonyOS 3.0 正式版支持。",
+      "p3.flow.heading": "配置流程",
+      "p3.flow.f1": "升级所需 App/客户端并确认主机蓝牙能力。",
+      "p3.flow.f2": "将键鼠先与一台主机配对，并完成外设固件升级。",
+      "p3.flow.f3": "依次完成其余主机配对，并在设置中开启鼠标穿越与键鼠协同。",
+      "p3.flow.f4": "在界面中调整设备相对位置，实测跨边界穿越效果。",
+      "p3.gallery.heading": "效果展示",
+      "p3.value.heading": "用户价值",
+      "p3.value.body":
+        "该能力显著降低了多设备工作流中的切换成本。通过更自然的跨屏交互模型，用户可在办公、学习和创作场景中提升协同效率与连续性。",
+      "p3.links.heading": "相关链接",
+      "p3.links.l1": "华为支持文章"
     }
   };
 
