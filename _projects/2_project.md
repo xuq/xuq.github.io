@@ -4,7 +4,7 @@ title: Smart Parking Locator
 title_zh: 精准寻车
 description: Smart parking card + GPS-free indoor positioning + route-back car finding.
 description_zh: 负一屏停车卡片 + 无GPS地下定位 + 原路返回寻车。
-img: /assets/img/parking-finder/parking-card-and-map.gif
+img: /assets/img/parking-finder/parking-card-and-map.png
 importance: 2
 category: work
 ---
@@ -13,7 +13,7 @@ category: work
 
 <p data-i18n-content-key="p2.intro">Many people have experienced the frustration of finding a parked car, especially in large and unfamiliar underground parking garages. Everything looks similar, and time is easily wasted trying to remember the exact floor and parking spot. To solve this, Huawei introduced Smart Parking Locator on Mate X7 and Mate 80 series phones, with support for parking floor and nearby slot recording, plus route-back guidance for faster car retrieval.</p>
 
-<img src="/assets/img/parking-finder/parking-card-and-map.gif" alt="Smart Parking Locator Cover" style="display:block; width:min(100%, 760px); margin:0 auto 1rem; border-radius:12px;">
+<img src="/assets/img/parking-finder/parking-card-and-map.png" alt="Smart Parking Locator Cover" style="display:block; width:min(100%, 760px); margin:0 auto 1rem; border-radius:12px;">
 
 <h3 data-i18n-content-key="p2.card.heading">Swipe To Smart Card: Floor And Slot At A Glance</h3>
 
@@ -33,7 +33,13 @@ category: work
 
 <h3 data-i18n-content-key="p2.preview.heading">Animated Preview</h3>
 
-<img src="/assets/img/parking-finder/parking-card-and-map.gif" alt="Smart Parking Locator Animated Preview" style="display:block; width:min(100%, 760px); margin:0 auto 1rem; border-radius:12px;">
+<figure>
+  <video controls playsinline preload="metadata" poster="/assets/img/parking-finder/parking-card-and-map.png" style="display:block; width:min(100%, 760px); margin:0 auto; border-radius:12px;">
+    <source src="/assets/video/parking-card-and-map.mp4" type="video/mp4">
+    Your browser does not support embedded video. Please use the direct link below.
+  </video>
+  <figcaption class="caption">Smart Parking Locator animated preview. <a href="/assets/video/parking-card-and-map.mp4">Direct video link</a>.</figcaption>
+</figure>
 
 <p data-i18n-content-key="p2.summary">In short, Huawei's Smart Parking Locator breaks the limitations of underground spaces and turns car retrieval into a smoother, faster experience. On your next trip, let your phone remember the floor and slot details so you can get back to your car with confidence.</p>
 
