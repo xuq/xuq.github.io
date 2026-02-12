@@ -1,4 +1,9 @@
-  {%- if site.enable_masonry -%}
+  {%- if page.enable_masonry != nil -%}
+    {%- assign _enable_masonry = page.enable_masonry -%}
+  {%- else -%}
+    {%- assign _enable_masonry = site.enable_masonry -%}
+  {%- endif -%}
+  {%- if _enable_masonry -%}
   <!-- Masonry & imagesLoaded -->
   <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@{{ site.masonry.version }}/dist/masonry.pkgd.min.js" integrity="{{ site.masonry.integrity }}" crossorigin="anonymous"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>

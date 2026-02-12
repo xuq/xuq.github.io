@@ -16,6 +16,12 @@ news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: false # hide selected publications section on homepage
 social: true  # includes social icons at the bottom of the page
+
+# Performance: homepage doesn't need MathJax/Polyfill, zoom, or bootstrap-table
+enable_math: false
+enable_medium_zoom: false
+enable_bootstrap_table: false
+enable_masonry: false
 ---
 
 <p data-i18n-content-key="about.intro.1">I am a Senior Principal Engineer and Research Lead at the Human-Machine Interaction Lab, Huawei Technologies Canada. My work focuses on building <strong>new user experiences</strong> powered by <strong>novel machine learning</strong> and <strong>signal processing systems</strong> that fuse <strong>multiple sensor modalities</strong> (e.g., audio, motion, touch, proximity) into reliable and delightful interactions.</p>
