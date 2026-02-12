@@ -314,12 +314,46 @@
 
   const t = (lang, key) => (translations[lang] && translations[lang][key]) || null;
 
-  const applyKeyTranslations = (lang) => {
-    document.querySelectorAll("[data-i18n-key]").forEach((el) => {
-      const key = el.getAttribute("data-i18n-key");
-      const value = t(lang, key);
-      if (!value) return;
+  // Cache DOM lookups to make language switching fast on long pages.
+  const caches = {
+    keyEls: [],
+    attrEls: [],
+    contentEls: [],
+  };
 
+  const buildCaches = () => {
+    caches.keyEls = Array.from(document.querySelectorAll("[data-i18n-key]")).map((el) => ({
+      el,
+      key: el.getAttribute("data-i18n-key"),
+    }));
+
+    caches.attrEls = Array.from(
+      document.querySelectorAll("[data-i18n-title], [data-i18n-description], [data-i18n-subtitle]")
+    ).map((el) => ({
+      el,
+      en: el.getAttribute("data-i18n-en") || "",
+      zh: el.getAttribute("data-i18n-zh") || (el.getAttribute("data-i18n-en") || ""),
+    }));
+
+    caches.contentEls = Array.from(document.querySelectorAll("[data-i18n-content-key]")).map((el) => {
+      if (!el.hasAttribute("data-i18n-en-content")) {
+        // Preserve original content (assumed EN) so we can switch back.
+        el.setAttribute("data-i18n-en-content", el.textContent || "");
+      }
+      return {
+        el,
+        key: el.getAttribute("data-i18n-content-key"),
+        enContent: el.getAttribute("data-i18n-en-content") || "",
+      };
+    });
+  };
+
+  const applyKeyTranslations = (lang) => {
+    for (const { el, key } of caches.keyEls) {
+      const value = t(lang, key);
+      if (!value) continue;
+
+      // Some headings contain links/icons; keep them by only updating the leading text node.
       if (el.children.length > 0) {
         if (el.firstChild && el.firstChild.nodeType === Node.TEXT_NODE) {
           el.firstChild.nodeValue = `${value} `;
@@ -329,34 +363,27 @@
       } else {
         el.textContent = value;
       }
-    });
+    }
   };
 
   const applyAttrTranslations = (lang) => {
-    document.querySelectorAll("[data-i18n-title], [data-i18n-description], [data-i18n-subtitle]").forEach((el) => {
-      const en = el.getAttribute("data-i18n-en") || "";
-      const zh = el.getAttribute("data-i18n-zh") || en;
-      el.textContent = lang === "zh" ? zh : en;
-    });
+    const useZh = lang === "zh";
+    for (const { el, en, zh } of caches.attrEls) {
+      el.textContent = useZh ? zh : en;
+    }
   };
 
   const applyContentTranslations = (lang) => {
-    document.querySelectorAll("[data-i18n-content-key]").forEach((el) => {
-      // Preserve original content (assumed EN) so we can switch back.
-      if (!el.hasAttribute("data-i18n-en-content")) {
-        el.setAttribute("data-i18n-en-content", el.textContent || "");
-      }
-
-      const key = el.getAttribute("data-i18n-content-key");
+    const useZh = lang === "zh";
+    for (const { el, key, enContent } of caches.contentEls) {
       const value = t(lang, key);
-
       if (value) {
         el.textContent = value;
-      } else if (lang === "en") {
+      } else if (!useZh) {
         // If no EN translation exists, restore original English content.
-        el.textContent = el.getAttribute("data-i18n-en-content") || "";
+        el.textContent = enContent;
       }
-    });
+    }
   };
 
   const updateToggle = (lang) => {
@@ -374,7 +401,10 @@
   };
 
   document.addEventListener("DOMContentLoaded", () => {
+    buildCaches();
+
     let lang = getSavedLang();
+    // Apply after caches are ready to avoid repeated DOM queries.
     applyLang(lang);
 
     const btn = document.getElementById("lang-toggle");
@@ -383,7 +413,8 @@
     btn.addEventListener("click", () => {
       lang = lang === "zh" ? "en" : "zh";
       setSavedLang(lang);
-      applyLang(lang);
+      // Apply on next frame to keep UI responsive.
+      window.requestAnimationFrame(() => applyLang(lang));
     });
   });
 })();
