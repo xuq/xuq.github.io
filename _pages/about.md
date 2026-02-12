@@ -2,23 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Senior Principal Engineer & Research Lead @ <a href='https://www.huawei.com/'>Huawei Technologies Canada</a>, Markham, ON, Canada
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>Toronto, Ontario, Canada</p>
+  address:
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Senior Principal Engineer and Research Lead at the Human-Machine Interaction Lab, **Huawei Technologies Canada**. I lead research in **Human-Computer Interaction**, **Sensing & Interaction**, **On-Body Sensing**, **Wearable Computing**, **Cross-Device Interaction**, and **Speech Interaction (Voice UI)**.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I received my Ph.D. from [McMaster University](https://www.mcmaster.ca/) in 2018, where my dissertation focused on fingerprint-based indoor localization. My current work spans novel interaction paradigms for wearable and multi-device ecosystems, including earable gesture recognition, smart watch interaction, stylus and touch input, on-body microphone-based sensing, and speech interaction for smart devices.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I have published at top venues including ACM UbiComp/IMWUT, IEEE INFOCOM, ACM MobileHCI, and IFIP INTERACT, and hold 80+ patents (30+ published) covering areas such as cross-device interaction, wearable device control, wireless sensing, and spatial perception.
