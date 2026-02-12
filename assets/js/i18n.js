@@ -117,7 +117,23 @@
       "p4.setup.s4": "Look at the target device, then press Ctrl on the source device to switch cursor focus.",
       "p4.gallery.heading": "Gallery",
       "p4.links.heading": "Links",
-      "p4.links.l1": "Huawei Support Article"
+      "p4.links.l1": "Huawei Support Article",
+      "p5.h2": "Huawei Watch Fall Detection",
+      "p5.intro":
+        "Huawei Watch supports severe fall detection with SOS emergency assistance. After the feature is enabled, the watch can detect serious falls and trigger emergency actions, helping users reach contacts or public emergency services faster in critical situations.",
+      "p5.auto.heading": "Automatic Emergency Assistance After Fall Detection",
+      "p5.auto.a1": "When a severe fall is detected, the watch enters SOS flow. If no action is taken within 60 seconds, it automatically starts emergency calling.",
+      "p5.auto.a2": "If emergency contacts are configured, the watch calls the first emergency contact and sends distress SMS with current location information to all emergency contacts.",
+      "p5.auto.a3": "If no emergency contact is configured, the watch displays public emergency numbers for manual calling.",
+      "p5.manual.heading": "Manual SOS Trigger",
+      "p5.manual.body": "Users can trigger SOS manually by pressing the upper button five times in a row. This path can quickly initiate emergency calling and related emergency notifications.",
+      "p5.setup.heading": "Setup Essentials",
+      "p5.setup.s1": "In Huawei Health, complete Personal Emergency Information and add up to three emergency contacts.",
+      "p5.setup.s2": "On watch, open Settings > SOS Emergency Assistance (or Settings > Security & Privacy > SOS Emergency Assistance) and enable fall detection.",
+      "p5.setup.s3": "If dual-SIM phone is connected through Bluetooth, set the default calling SIM in advance for reliable emergency dialing.",
+      "p5.gallery.heading": "Gallery",
+      "p5.links.heading": "Links",
+      "p5.links.l1": "Huawei Support Article"
     },
     zh: {
       "nav.about": "关于",
@@ -233,7 +249,23 @@
       "p4.setup.s4": "注视目标设备后，在源设备按下 Ctrl 键即可切换光标焦点。",
       "p4.gallery.heading": "效果展示",
       "p4.links.heading": "相关链接",
-      "p4.links.l1": "华为支持文章"
+      "p4.links.l1": "华为支持文章",
+      "p5.h2": "华为手表跌倒检测",
+      "p5.intro":
+        "华为手表支持严重跌倒检测与 SOS 紧急求助能力。开启该功能后，手表在识别到严重跌倒时可触发紧急流程，帮助用户在关键场景下更快联系紧急联系人或公共紧急服务。",
+      "p5.auto.heading": "跌倒后自动发起紧急求助",
+      "p5.auto.a1": "检测到严重跌倒后，手表进入 SOS 流程；若 60 秒内未操作，将自动发起紧急呼叫。",
+      "p5.auto.a2": "若已设置紧急联系人，手表会自动呼叫第一紧急联系人，并向全部紧急联系人发送包含当前位置的求助短信。",
+      "p5.auto.a3": "若未设置紧急联系人，手表会显示公共紧急号码供手动呼叫。",
+      "p5.manual.heading": "手动 SOS 触发",
+      "p5.manual.body": "用户可通过连续按压上键 5 次手动发起 SOS 紧急求助，快速进入呼叫和通知流程。",
+      "p5.setup.heading": "配置要点",
+      "p5.setup.s1": "在华为运动健康 App 中完善个人紧急信息，并最多添加 3 位紧急联系人。",
+      "p5.setup.s2": "在手表设置中进入 SOS 紧急求助（或安全和隐私 > SOS 紧急求助），并开启跌倒检测。",
+      "p5.setup.s3": "若手表通过蓝牙连接双卡手机，建议预先设置默认拨号卡以保证紧急呼叫稳定性。",
+      "p5.gallery.heading": "效果展示",
+      "p5.links.heading": "相关链接",
+      "p5.links.l1": "华为支持文章"
     }
   };
 
