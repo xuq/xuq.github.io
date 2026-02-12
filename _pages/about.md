@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Senior Principal Engineer & Research Lead @ <a href='https://www.huawei.com/'>Huawei Technologies Canada</a>, Markham, ON, Canada
 

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: Selected projects and shipped features.
+description: Selected shipped features and product-focused work.
 nav: true
 nav_order: 2
 display_categories: [work]
