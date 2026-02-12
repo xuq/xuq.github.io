@@ -1,4 +1,8 @@
-  {%- assign _enable_math = page.enable_math | default: site.enable_math -%}
+  {%- if page.enable_math != nil -%}
+    {%- assign _enable_math = page.enable_math -%}
+  {%- else -%}
+    {%- assign _enable_math = site.enable_math -%}
+  {%- endif -%}
   {%- if _enable_math -%}
   <!-- MathJax -->
   <script type="text/javascript">
