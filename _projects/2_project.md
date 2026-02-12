@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Smart Parking Locator (2023-08-29)
-title_zh: 精准寻车 (2023-08-29)
+title: Smart Parking Locator (2025)
+title_zh: 精准寻车 (2025)
 release_date: 2023-08-29
+release_year: 2025
 description: Smart parking card + GPS-free indoor positioning + route-back car finding.
 description_zh: 负一屏停车卡片 + 无GPS地下定位 + 原路返回寻车。
 img: /assets/img/parking-finder/parking-card-and-map.png

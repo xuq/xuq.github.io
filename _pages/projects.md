@@ -22,7 +22,7 @@ enable_bootstrap_table: false
   {%- for category in page.display_categories %}
   <h2 class="category" {% if category == 'work' %}data-i18n-key="projects.category.work"{% endif %}>{{ category }}</h2>
   {%- assign categorized_projects = site.projects | where: "category", category -%}
-  {%- assign sorted_projects = categorized_projects | sort: "release_date" | reverse %}
+  {%- assign sorted_projects = categorized_projects | sort: "release_year" | reverse %}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">

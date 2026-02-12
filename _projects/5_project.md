@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Huawei Watch Fall Detection (2023-08-29)
-title_zh: 华为手表跌倒检测 (2023-08-29)
+title: Huawei Watch Fall Detection (2021)
+title_zh: 华为手表跌倒检测 (2021)
 release_date: 2023-08-29
+release_year: 2021
 description: Automatic emergency assistance on Huawei Watch after severe fall detection.
 description_zh: 华为手表检测到严重跌倒后自动发起紧急求助。
 img: /assets/img/watch-fall/add-contact.png

@@ -1,8 +1,9 @@
 ---
 layout: page
-title: HarmonyOS Tap-to-Share (Phone to Screen) (2025-10-22)
-title_zh: 鸿蒙新碰一碰（手机碰屏幕 / 跨端互联） (2025-10-22)
+title: HarmonyOS Tap-to-Share (Phone to Screen) (2025)
+title_zh: 鸿蒙新碰一碰（手机碰屏幕 / 跨端互联） (2025)
 release_date: 2025-10-22
+release_year: 2025
 description: Tap phone to screen for cross-device sharing and continuity.
 description_zh: 手机轻触屏幕，一步完成跨端分享与协同。
 img: /assets/img/harmony-touch/youtube_thumb.jpg

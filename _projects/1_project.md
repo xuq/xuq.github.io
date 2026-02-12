@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Celia Whisper (2023-08-29)
-title_zh: 小艺私语 (2023-08-29)
+title: Celia Whisper (2024)
+title_zh: 小艺私语 (2024)
 release_date: 2023-08-29
+release_year: 2024
 description: Hands-free voice assistant interaction via raise-to-speak gesture, shipped on Huawei flagship devices.
 description_zh: 抬手即说的免唤醒语音交互能力，已在华为旗舰机型落地。
 img: /assets/img/celia-whisper/cover.jpg
