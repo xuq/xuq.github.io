@@ -2,12 +2,14 @@
 layout: page
 permalink: /repositories/
 title: Repositories
+title_zh: 代码仓库
 description: Selected GitHub profiles and repositories.
+description_zh: 精选 GitHub 账号与仓库。
 nav: false
 nav_order: 3
 ---
 
-## GitHub Users
+<h2 data-i18n-key="repo.github_users">GitHub Users</h2>
 
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
@@ -33,7 +35,7 @@ nav_order: 3
 {% endif %}
 {% endif %}
 
-## GitHub Repositories
+<h2 data-i18n-key="repo.github_repositories">GitHub Repositories</h2>
 
 {% if site.data.repositories.github_repos %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">

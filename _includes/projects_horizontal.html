@@ -15,8 +15,18 @@
         <div class="col-md-12">
         {%- endif -%}
           <div class="card-body">
-            <h3 class="card-title text-lowercase">{{ project.title }}</h3>
-            <p class="card-text">{{ project.description }}</p>
+            <h3
+              class="card-title text-lowercase"
+              data-i18n-title="true"
+              data-i18n-en="{{ project.title | escape }}"
+              data-i18n-zh="{{ project.title_zh | default: project.title | escape }}"
+            >{{ project.title }}</h3>
+            <p
+              class="card-text"
+              data-i18n-description="true"
+              data-i18n-en="{{ project.description | default: '' | escape }}"
+              data-i18n-zh="{{ project.description_zh | default: project.description | default: '' | escape }}"
+            >{{ project.description }}</p>
             <div class="row ml-1 mr-1 p-0">
               {%- if project.github -%}
               <div class="github-icon">

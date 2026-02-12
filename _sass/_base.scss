@@ -19,6 +19,14 @@ strong {
   color: var(--global-text-color);
 }
 
+html[lang='zh'] body,
+html[lang='zh'] button,
+html[lang='zh'] input,
+html[lang='zh'] textarea,
+html[lang='zh'] select {
+  font-family: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", sans-serif;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -289,13 +297,28 @@ blockquote {
 }
 
 #light-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
   padding: 0;
-  border: 0;
-  background-color: inherit;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  background-color: transparent;
   color: var(--global-text-color);
+  margin-left: 8px;
+
+  .fa-sun,
+  .fa-moon {
+    padding-left: 0;
+    padding-top: 0;
+    line-height: 1;
+  }
 
   &:hover {
     color: var(--global-hover-color);
+    border-color: var(--global-hover-color);
   }
 }
 
@@ -919,6 +942,32 @@ progress::-moz-progress-bar {
       color: var(--global-hover-text-color);
     }
   }
+}
+
+#lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 30px;
+  border: 1px solid var(--global-divider-color);
+  background-color: transparent;
+  color: var(--global-text-color);
+  border-radius: 6px;
+  padding: 0 8px;
+  font-size: 0.8rem;
+  line-height: 1;
+  margin-left: 8px;
+
+  &:hover {
+    color: var(--global-hover-color);
+    border-color: var(--global-hover-color);
+  }
+}
+
+.navbar-nav .toggle-container {
+  display: flex;
+  align-items: center;
 }
 
 /* Table of Contents */

@@ -1,0 +1,220 @@
+(() => {
+  const STORAGE_KEY = "site_lang";
+  const DEFAULT_LANG = "en";
+
+  const translations = {
+    en: {
+      "nav.about": "About",
+      "nav.blog": "Blog",
+      "nav.projects": "Projects",
+      "nav.publications": "Publications",
+      "nav.cv": "CV",
+      "nav.teaching": "Teaching",
+      "nav.repositories": "Repositories",
+      "section.news": "news",
+      "section.latest_posts": "latest posts",
+      "section.selected_publications": "selected publications",
+      "repo.github_users": "GitHub Users",
+      "repo.github_repositories": "GitHub Repositories",
+      "projects.category.work": "work",
+      "about.intro.1":
+        "I am a Senior Principal Engineer and Research Lead at the Human-Machine Interaction Lab, Huawei Technologies Canada. I lead research in Human-Computer Interaction, Sensing & Interaction, On-Body Sensing, Wearable Computing, Cross-Device Interaction, and Speech Interaction (Voice UI).",
+      "about.intro.2":
+        "I received my Ph.D. from McMaster University in 2018, where my dissertation focused on fingerprint-based indoor localization. My current work spans novel interaction paradigms for wearable and multi-device ecosystems, including earable gesture recognition, smart watch interaction, stylus and touch input, on-body microphone-based sensing, and speech interaction for smart devices.",
+      "about.intro.3":
+        "I have published at top venues including ACM UbiComp/IMWUT, IEEE INFOCOM, ACM MobileHCI, and IFIP INTERACT, and hold 80+ patents (30+ published) covering areas such as cross-device interaction, wearable device control, wireless sensing, and spatial perception.",
+      "teaching.body.1": "Course and mentoring materials will be updated here over time.",
+      "teaching.body.2":
+        "I use this page to share teaching activities, guest lectures, and learning resources related to human-computer interaction, sensing, and ubiquitous computing.",
+      "common.direct_video_link": "Direct video link",
+      "p1.h2": "Celia Whisper",
+      "p1.intro":
+        "Celia Whisper is a hands-free voice assistant interaction mode that I led the development of at Huawei. It enables users to issue voice commands to Huawei's AI assistant without speaking the traditional wake word, by simply raising the phone close to the mouth.",
+      "p1.demo.heading": "Demo Video",
+      "p1.demo.caption": "Celia Whisper interaction demo.",
+      "p1.how.heading": "How It Works",
+      "p1.how.body":
+        "The system combines on-body sensing with proximity detection: when the user lifts the phone with the microphone positioned within 5cm of the mouth, voice processing is automatically activated. This eliminates the need for verbal wake phrases, enabling natural and discreet voice interaction.",
+      "p1.features.heading": "Key Features",
+      "p1.features.f1.title": "Wake-word-free activation",
+      "p1.features.f1.body": "Raise-to-speak gesture replaces the traditional \"Hey Celia\" wake word.",
+      "p1.features.f2.title": "Quiet environment usage",
+      "p1.features.f2.body": "Designed for scenarios requiring silence, such as libraries, meetings, and theaters.",
+      "p1.features.f3.title": "Adaptive volume response",
+      "p1.features.f3.body": "The assistant's reply volume automatically adjusts based on detected user voice levels.",
+      "p1.features.f4.title": "Whisper support",
+      "p1.features.f4.body": "Users can speak in either normal or whispered tones.",
+      "p1.gallery.heading": "Gallery",
+      "p1.official.heading": "Official Images (Huawei Support)",
+      "p1.devices.heading": "Supported Devices",
+      "p1.devices.d1.title": "Mate Series",
+      "p1.devices.d1.body": "Mate 70 / 70 Pro / 70 Pro+, Mate 80 / 80 Pro / 80 Pro Max, Mate X6 / X7.",
+      "p1.devices.d2.title": "Pura Series",
+      "p1.devices.d2.body": "Pura X, Pura 80 Pro / Pro+ / Ultra.",
+      "p1.devices.d3": "Requires HarmonyOS 5.0 or later.",
+      "p1.links.heading": "Links",
+      "p1.links.l1": "Huawei Support Page",
+      "p1.links.l2": "Huawei Official Video Guide (on support page)",
+      "p2.h2": "Smart Parking Locator",
+      "p2.intro":
+        "Many people have experienced the frustration of finding a parked car, especially in large and unfamiliar underground parking garages. Everything looks similar, and time is easily wasted trying to remember the exact floor and parking spot. To solve this, Huawei introduced Smart Parking Locator on Mate X7 and Mate 80 series phones, with support for parking floor and nearby slot recording, plus route-back guidance for faster car retrieval.",
+      "p2.card.heading": "Swipe To Smart Card: Floor And Slot At A Glance",
+      "p2.card.body":
+        "The interaction is effortless. After you park and leave your car, there is no need to manually note the location or install an extra app. Just swipe to the left-most smart screen, where an auto-generated parking card shows the parking floor and nearby slot number. In supported garages, a visual parking map helps users quickly lock onto the car's direction.",
+      "p2.gps.heading": "GPS-Free Precision Positioning In Underground Garages",
+      "p2.gps.body":
+        "Accurate indoor parking localization is enabled by deep integration of AI perception and spatial positioning technologies. The phone detects key \"user leaving car\" signals and combines them with sensor data generated while driving inside the garage, then performs real-time matching and dynamic calibration. Even in fully GPS-denied environments, the system can still pinpoint parking floor and slot location.",
+      "p2.coverage.heading": "Broad Coverage Across High-Demand Scenarios",
+      "p2.coverage.body":
+        "The feature currently covers major underground parking lots in over 300 cities across China, totaling more than 20,000 locations. It focuses on high-traffic venues with frequent car-finding needs, including large shopping malls, transportation hubs (airports and high-speed railway stations), and business office complexes. Users can check Huawei's official website to see whether their frequent parking lots are supported.",
+      "p2.route.heading": "Route-Back Car Finding: A Complete Retrieval Experience",
+      "p2.route.body":
+        "For shopping malls that support high-precision indoor positioning, a route-back feature further improves retrieval efficiency. When users are ready to return to their car, they can open the parking card and start navigation. The system highlights the elevator originally used on arrival and provides clear real-time directional guidance. Following the same path helps users reach their car quickly and avoid taking the wrong elevator or unnecessary detours.",
+      "p2.preview.heading": "Animated Preview",
+      "p2.summary":
+        "In short, Huawei's Smart Parking Locator breaks the limitations of underground spaces and turns car retrieval into a smoother, faster experience. On your next trip, let your phone remember the floor and slot details so you can get back to your car with confidence.",
+      "p2.links.heading": "Links",
+      "p2.links.l1": "Zhihu Article"
+    },
+    zh: {
+      "nav.about": "关于",
+      "nav.blog": "博客",
+      "nav.projects": "项目",
+      "nav.publications": "Publications",
+      "nav.cv": "简历",
+      "nav.teaching": "教学",
+      "nav.repositories": "代码仓库",
+      "section.news": "动态",
+      "section.latest_posts": "最新文章",
+      "section.selected_publications": "selected publications",
+      "repo.github_users": "GitHub 用户",
+      "repo.github_repositories": "GitHub 仓库",
+      "projects.category.work": "工作项目",
+      "about.intro.1":
+        "我目前在华为加拿大人机交互实验室担任资深首席工程师和研究负责人，主要研究方向包括人机交互、感知与交互、贴身感知、可穿戴计算、跨设备交互以及语音交互。",
+      "about.intro.2":
+        "我于 2018 年获得麦克马斯特大学博士学位，博士研究聚焦于基于指纹的室内定位。当前工作覆盖可穿戴与多设备生态中的新型交互范式，包括耳戴设备手势识别、智能手表交互、手写笔与触控输入、基于贴身麦克风的感知，以及智能设备语音交互。",
+      "about.intro.3":
+        "我在 ACM UbiComp/IMWUT、IEEE INFOCOM、ACM MobileHCI、IFIP INTERACT 等顶级会议和期刊发表研究成果，并拥有 80 余项专利（其中 30 余项已公开），方向涵盖跨设备交互、可穿戴设备控制、无线感知与空间感知。",
+      "teaching.body.1": "课程与指导相关资料将持续在此页面更新。",
+      "teaching.body.2":
+        "该页面将用于分享我在人机交互、感知系统与泛在计算方向的教学活动、讲座以及学习资源。",
+      "common.direct_video_link": "视频直链",
+      "p1.h2": "小艺私语",
+      "p1.intro":
+        "小艺私语是我在华为主导研发的一项免唤醒语音交互能力。用户无需说出传统唤醒词，只需将手机抬至嘴边即可直接发起语音指令。",
+      "p1.demo.heading": "演示视频",
+      "p1.demo.caption": "小艺私语交互演示。",
+      "p1.how.heading": "工作方式",
+      "p1.how.body":
+        "该系统融合了贴身感知与近距检测能力：当用户抬起手机并使麦克风靠近嘴部约 5cm 时，语音处理会自动激活。由此可省去口头唤醒词，实现更自然、更低干扰的语音交互。",
+      "p1.features.heading": "核心特性",
+      "p1.features.f1.title": "免唤醒激活",
+      "p1.features.f1.body": "通过抬手即说手势替代传统“Hey Celia”唤醒词。",
+      "p1.features.f2.title": "安静场景可用",
+      "p1.features.f2.body": "适用于图书馆、会议室、影院等需低声交流或保持安静的场景。",
+      "p1.features.f3.title": "自适应音量反馈",
+      "p1.features.f3.body": "助手回复音量可根据用户语音强度自动调节。",
+      "p1.features.f4.title": "支持私语输入",
+      "p1.features.f4.body": "用户可使用正常音量或轻声私语与助手交互。",
+      "p1.gallery.heading": "效果展示",
+      "p1.official.heading": "官方素材（华为支持页）",
+      "p1.devices.heading": "支持机型",
+      "p1.devices.d1.title": "Mate 系列",
+      "p1.devices.d1.body": "Mate 70 / 70 Pro / 70 Pro+，Mate 80 / 80 Pro / 80 Pro Max，Mate X6 / X7。",
+      "p1.devices.d2.title": "Pura 系列",
+      "p1.devices.d2.body": "Pura X，Pura 80 Pro / Pro+ / Ultra。",
+      "p1.devices.d3": "需 HarmonyOS 5.0 及以上版本。",
+      "p1.links.heading": "相关链接",
+      "p1.links.l1": "华为支持页",
+      "p1.links.l2": "华为官方视频指引（支持页内）",
+      "p2.h2": "精准寻车",
+      "p2.intro":
+        "相信不少人都有过在停车场找车的经历，尤其是在陌生的大型地下停车场，看哪里都像似曾相识，但兜兜转转来回穿梭就是记不起车停在哪一层、哪个车位，白白浪费了宝贵的时间。为此，华为在 Mate X7、Mate 80 系列手机上推出了精准寻车能力，支持记录停车楼层与附近车位号，并支持原路返回寻车。",
+      "p2.card.heading": "右滑负一屏：楼层与车位一目了然",
+      "p2.card.body":
+        "操作零门槛，便捷无忧。停车熄火离车后，无需手动记录，也无需额外下载 App。右滑进入负一屏，即可看到智能生成的停车卡片，清晰显示停车楼层与附近车位号。部分地库还支持直观车位图，帮助快速锁定车辆方向。",
+      "p2.gps.heading": "无 GPS 信号也能精准定位",
+      "p2.gps.body":
+        "地下车库精准定位的关键在于 AI 感知与空间定位技术的融合。手机可实时捕捉“用户离车”关键信号，并结合地库行驶过程中的传感器数据进行匹配与动态校准。即便在完全无 GPS 信号环境中，也能定位停车楼层与车位。",
+      "p2.coverage.heading": "海量场景覆盖，出行更安心",
+      "p2.coverage.body":
+        "该功能目前已覆盖全国 300 多座城市、超过 20,000 个主流地下停车场，重点覆盖大型购物中心、交通枢纽（机场/高铁站）和商务写字楼等高频寻车场景。用户可在华为官网查询常去停车场是否支持。",
+      "p2.route.heading": "原路返回寻车：效率再升级",
+      "p2.route.body":
+        "对于支持室内高精定位的商场，系统进一步提供原路返回寻车。用户启动寻车后，系统可智能显示来时乘坐的电梯位置，并提供实时方向指引。沿原路径下楼可快速到达车辆，避免找错电梯和绕行。",
+      "p2.preview.heading": "动图演示",
+      "p2.summary":
+        "总的来说，精准寻车能力有效打破地下空间定位限制，让找车更高效、更省心。下一次出行，让手机帮你记住楼层与车位。",
+      "p2.links.heading": "相关链接",
+      "p2.links.l1": "知乎原文"
+    }
+  };
+
+  const getSavedLang = () => localStorage.getItem(STORAGE_KEY) || DEFAULT_LANG;
+  const setSavedLang = (lang) => localStorage.setItem(STORAGE_KEY, lang);
+
+  const t = (lang, key) => (translations[lang] && translations[lang][key]) || null;
+
+  const applyKeyTranslations = (lang) => {
+    document.querySelectorAll("[data-i18n-key]").forEach((el) => {
+      const key = el.getAttribute("data-i18n-key");
+      const value = t(lang, key);
+      if (!value) return;
+
+      if (el.children.length > 0) {
+        if (el.firstChild && el.firstChild.nodeType === Node.TEXT_NODE) {
+          el.firstChild.nodeValue = `${value} `;
+        } else {
+          el.insertBefore(document.createTextNode(`${value} `), el.firstChild);
+        }
+      } else {
+        el.textContent = value;
+      }
+    });
+  };
+
+  const applyAttrTranslations = (lang) => {
+    document.querySelectorAll("[data-i18n-title], [data-i18n-description], [data-i18n-subtitle]").forEach((el) => {
+      const en = el.getAttribute("data-i18n-en") || "";
+      const zh = el.getAttribute("data-i18n-zh") || en;
+      el.textContent = lang === "zh" ? zh : en;
+    });
+  };
+
+  const applyContentTranslations = (lang) => {
+    document.querySelectorAll("[data-i18n-content-key]").forEach((el) => {
+      const key = el.getAttribute("data-i18n-content-key");
+      const value = t(lang, key);
+      if (value) el.textContent = value;
+    });
+  };
+
+  const updateToggle = (lang) => {
+    const label = document.getElementById("lang-toggle-label");
+    if (!label) return;
+    label.textContent = lang === "zh" ? "EN" : "中文";
+  };
+
+  const applyLang = (lang) => {
+    document.documentElement.setAttribute("lang", lang);
+    applyKeyTranslations(lang);
+    applyAttrTranslations(lang);
+    applyContentTranslations(lang);
+    updateToggle(lang);
+  };
+
+  document.addEventListener("DOMContentLoaded", () => {
+    let lang = getSavedLang();
+    applyLang(lang);
+
+    const btn = document.getElementById("lang-toggle");
+    if (!btn) return;
+
+    btn.addEventListener("click", () => {
+      lang = lang === "zh" ? "en" : "zh";
+      setSavedLang(lang);
+      applyLang(lang);
+    });
+  });
+})();
