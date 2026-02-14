@@ -3,6 +3,7 @@ layout: page
 title: Proximity Collaborative Wake-Up (2025)
 title_zh: 就近协同唤醒（2025）
 release_year: 2025
+release_date: 2025-01-01
 description: Multi-device collaborative wake-up that resists reflection/reverb and responds on the best nearby device.
 description_zh: 多设备协同唤醒，抗反射/混响干扰，听声辩位并选择最合适的应答设备，实现毫秒级就近唤醒。
 img: /assets/img/proximity-collab-wakeup/kv.webp
