@@ -13,7 +13,7 @@ category: work
 <h2 data-i18n-content-key="p9.h2">Proximity Collaborative Wake-Up</h2>
 
 <p data-i18n-content-key="p9.intro">
-“Proximity Collaborative Wake-Up / 就近协同唤醒” is a whole-home speech interaction capability that I led to ship in 2025.
+“Proximity Collaborative Wake-Up / 就近协同唤醒” is a whole-home speech interaction capability that my team contributed to shipping in 2025.
 In a multi-device home environment, the system mitigates acoustic interference such as reflection and room reverberation,
 localizes the speaker direction, and automatically selects the best nearby device to respond — enabling millisecond-level wake-up.
 </p>

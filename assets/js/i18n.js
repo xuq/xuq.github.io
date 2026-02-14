@@ -136,7 +136,7 @@
       "p5.links.l1": "Huawei Support Article",
 
       "p9.h2": "Proximity Collaborative Wake-Up",
-      "p9.intro": "Proximity Collaborative Wake-Up is a whole-home speech interaction capability that I led to ship in 2025. In a multi-device home environment, the system mitigates acoustic interference such as reflection and room reverberation, localizes the speaker direction, and automatically selects the best nearby device to respond — enabling millisecond-level wake-up.",
+      "p9.intro": "Proximity Collaborative Wake-Up is a whole-home speech interaction capability that my team contributed to shipping in 2025. In a multi-device home environment, the system mitigates acoustic interference such as reflection and room reverberation, localizes the speaker direction, and automatically selects the best nearby device to respond — enabling millisecond-level wake-up.",
       "p9.key": "Key feature",
       "p9.quote": "Advanced multi-device collaborative wake-up technology optimizes interference from sound reflection and room reverberation, accurately localizes sound direction, intelligently determines the most suitable responding device, and enables millisecond-level proximity wake-up.",
       "p9.assets": "Official assets (Huawei)",
@@ -315,7 +315,7 @@
       "p8.links.huawei": "华为官网支持页：主题 App 的“碰一碰”资源分享说明（手机碰手机）",
 
       "p9.h2": "就近协同唤醒",
-      "p9.intro": "“就近协同唤醒”是我带领团队在 2025 年落地的一项全屋语音交互能力。在多设备全屋环境中，系统可优化声音反射、空间混响等干扰，精准听声辩位，并智能判断最合适的应答设备，实现毫秒级就近唤醒与响应。",
+      "p9.intro": "“就近协同唤醒”是我的团队参与在 2025 年落地的一项全屋语音交互能力。在多设备全屋环境中，系统可优化声音反射、空间混响等干扰，精准听声辩位，并智能判断最合适的应答设备，实现毫秒级就近唤醒与响应。",
       "p9.key": "核心特性",
       "p9.quote": "先进的多设备协同唤醒技术，优化声音反射、空间混响等干扰，精准听声辩位，智能判断合适应答设备，毫秒级就近唤醒。",
       "p9.assets": "官方素材（华为官网）",
